@@ -1,0 +1,2 @@
+source /home/jonathan/esp/payload/build/gdbinit/symbols
+source /home/jonathan/esp/payload/build/gdbinit/connect

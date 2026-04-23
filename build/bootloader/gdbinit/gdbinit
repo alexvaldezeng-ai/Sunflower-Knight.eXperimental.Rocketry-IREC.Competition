@@ -1,0 +1,2 @@
+source /home/jonathan/esp/payload/build/bootloader/gdbinit/symbols
+source /home/jonathan/esp/payload/build/bootloader/gdbinit/connect
