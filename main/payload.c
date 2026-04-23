@@ -96,7 +96,12 @@ void app_main(void) {
   payload.state = STATE_IDLE;
   ESP_LOGI(TAG, "Payload Initialized");
   while(1){
-     
+    // Add Three RTOS functions here
+    //
+    // LOG: IMU data, Sun data, State, and panel angle and ms from Payload Handle Low Prio
+    // IMU: Take IMU data and send it to the state machine task to know if we need to change states High Prio
+    // TRACKING: Read ADC find our panel angle, move motors accordingly Medium Prio
+    // STATE: Take IMU data and change state
   }
 }
 
