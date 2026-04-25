@@ -19,21 +19,20 @@
 #include "driver/ledc.h"
 
 //SPI Pins
-#define PIN_MOSI    GPIO_NUM_11
-#define PIN_MISO    GPIO_NUM_13
-#define PIN_SCLK    GPIO_NUM_12
-#define PIN_CS_SD   GPIO_NUM_10
-#define PIN_CS_IMU  GPIO_NUM_9
+#define PIN_MOSI    GPIO_NUM_23
+#define PIN_MISO    GPIO_NUM_19
+#define PIN_SCLK    GPIO_NUM_18
+#define PIN_CS_SD   GPIO_NUM_22
+#define PIN_CS_IMU  GPIO_NUM_21
 
 //Motor Pins
-#define PIN_STEP1
-#define PIN_STEP1_DIR
-#define PIN_STEP1_ENABLE
-#define PIN_STEP2
-#define PIN_STEP2_DIR
-#define PIN_STEP2_ENABLE
-#define PIN_MOTOR_1A
-#define PIN_MOTOR_1B
+#define PIN_STEP1 GPIO_NUM_13
+#define PIN_STEP1_DIR GPIO_NUM_16
+#define PIN_STEP1_ENABLE GPIO_NUM_14
+#define PIN_STEP2 GPIO_NUM_17
+#define PIN_STEP2_DIR GPIO_NUM_26
+#define PIN_STEP2_ENABLE GPIO_NUM_25
+#define PIN_MOTOR_1A GPIO_NUM_27
 #define PIN_ESC GPIO_NUM_36
 
 typedef enum {
@@ -121,7 +120,7 @@ static void init_spi_sd(PayloadHardware_t *hardware){
   sdmmc_host_t host = SDSPI_HOST_DEFAULT();
   sdspi_device_config_t slot_config = SDSPI_DEVICE_CONFIG_DEFAULT();
   slot_config.gpio_cs = PIN_CS_SD;
-  slot_config.host_id = SPI2_HOST;
+  slot_config.host_id = SPI3_HOST;
   esp_vfs_fat_mount_config_t mount_config = {
     .format_if_mount_failed = false,
     .max_files = 2,
