@@ -21,7 +21,13 @@
 #include <string.h>
 #include <sys/stat.h>
 
-// SPI Pins
+// Wiring notes:
+// IMU:     PS1 -> 3.3V, 
+// SD Card: VCC -> 5V from esc ubec 
+// Steppers: VMOT -> battery, SLP+RST -> 3.3V or 5V (keep driver awake)
+// LDRs:    LDR to 3.3V, 100k to GND, midpoint to ADC (N=GPIO32 S=GPIO33 E=GPIO34 W=GPIO35)
+// ESC:     signal wire -> GPIO 27
+// SPI Pins (shared bus: IMU + SD card)
 #define PIN_MOSI GPIO_NUM_23
 #define PIN_MISO GPIO_NUM_19
 #define PIN_SCLK GPIO_NUM_18
@@ -76,7 +82,8 @@
 #define ERR_DEADBAND 0.08f   // |normalized error| below this: aligned, hold
 #define STEPS_PER_NUDGE 8    // small fixed correction per update
 #define NUDGE_PERIOD_US 2000 // gentle 500 steps/s for fine moves
-#define PITCH_STEP_MIN (-800)
+#define PITCH_CLEARANCE 200    // extra steps after lift to clear chassis
+#define PITCH_STEP_MIN 0       // never go below clearance height
 #define PITCH_STEP_MAX (800)
 #define YAW_STEP_MIN (-1600)
 #define YAW_STEP_MAX (1600)
@@ -371,6 +378,17 @@ void state_task(void *pvParameters) {
                      LIFT_PERIOD_US);
         gpio_set_level(PIN_STEP1_ENABLE, 1); // de-energize: save battery,
                                              // lift should be self-holding
+        // Pitch up for chassis clearance
+        ESP_LOGI(TAG, "pitch clearance: %d steps", PITCH_CLEARANCE);
+        gpio_set_level(PIN_STEP1_ENABLE, 0);
+        gpio_set_level(PIN_STEP2_ENABLE, 0);
+        stepper_step(PIN_STEP1, PIN_STEP1_DIR, true, PITCH_CLEARANCE,
+                     NUDGE_PERIOD_US);
+        stepper_step(PIN_STEP2, PIN_STEP2_DIR, false, PITCH_CLEARANCE,
+                     NUDGE_PERIOD_US);
+        gpio_set_level(PIN_STEP1_ENABLE, 1);
+        gpio_set_level(PIN_STEP2_ENABLE, 1);
+        s_pitch_pos = PITCH_CLEARANCE; // tracking starts from here
         ESP_LOGI(TAG, "lift deploy done, aligning roll");
         roll_align_panel_up(s_latest_q);
         payload.lift_deployed = true;
