@@ -1,0 +1,595 @@
+Command: /home/jonathan/.espressif/python_env/idf6.1_py3.13_env/bin/python /home/jonathan/esp/esp-idf/tools/idf_monitor.py -p /dev/ttyUSB0 -b 115200 --toolchain-prefix xtensa-esp32-elf- --target esp32 --revision 0 /home/jonathan/esp/payload/build/payload.elf /home/jonathan/esp/payload/build/bootloader/bootloader.elf -m '/home/jonathan/.espressif/python_env/idf6.1_py3.13_env/bin/python' '/home/jonathan/esp/esp-idf/tools/idf.py' '-p' '/dev/ttyUSB0'
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+00 -0.00 -0.01]
+ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ex1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0040,len:6272
+load:0x40078000,len:15848
+load:0x40080400,len:3920
+entry 0x40080644
+[0;32mI (27) boot: ESP-IDF v6.1-dev-3863-g338f341110 2nd stage bootloader[0m
+[0;32mI (27) boot: compile time Jun 12 2026 22:38:45[0m
+[0;32mI (28) boot: Multicore bootloader[0m
+[0;32mI (30) boot: chip revision: v3.1[0m
+[0;32mI (33) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (37) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (40) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (44) boot: Enabling RNG early entropy source...[0m
+[0;32mI (49) boot: Partition Table:[0m
+[0;32mI (51) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (57) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (64) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (71) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (77) boot: End of partition table[0m
+[0;32mI (80) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0eec8h ( 61128) map[0m
+[0;32mI (110) esp_image: segment 1: paddr=0001eef0 vaddr=3ffb0000 size=01128h (  4392) load[0m
+[0;32mI (112) esp_image: segment 2: paddr=00020020 vaddr=400d0020 size=20b4ch (133964) map[0m
+[0;32mI (161) esp_image: segment 3: paddr=00040b74 vaddr=3ffb1128 size=01be0h (  7136) load[0m
+[0;32mI (164) esp_image: segment 4: paddr=0004275c vaddr=40080000 size=0d874h ( 55412) load[0m
+[0;32mI (188) esp_image: segment 5: paddr=0004ffd8 vaddr=50000000 size=00028h (    40) load[0m
+[0;32mI (195) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (195) boot: Disabling RNG early entropy source...[0m
+[0;32mI (206) cpu_start: Multicore app[0m
+[0;32mI (214) cpu_start: GPIO 3 and 1 are used as console UART I/O pins[0m
+[0;32mI (214) cpu_start: Pro cpu start user code[0m
+[0;32mI (214) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (216) app_init: Application information:[0m
+[0;32mI (220) app_init: Project name:     payload[0m
+[0;32mI (224) app_init: App version:      d9542d3-dirty[0m
+[0;32mI (228) app_init: Compile time:     Jun 12 2026 20:13:35[0m
+[0;32mI (233) app_init: ELF file SHA256:  5b59c457e...[0m
+[0;32mI (238) app_init: ESP-IDF:          v6.1-dev-3863-g338f341110[0m
+[0;32mI (243) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (247) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (251) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (255) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (261) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (266) heap_init: At 3FFB48D8 len 0002B728 (173 KiB): DRAM[0m
+[0;32mI (271) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (277) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (282) heap_init: At 4008D874 len 0001278C (73 KiB): IRAM[0m
+[0;32mI (289) spi_flash: detected chip: generic[0m
+[0;32mI (291) spi_flash: flash io: dio[0m
+[0;33mW (294) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (308) main_task: Started on CPU0[0m
+[0;32mI (318) main_task: Calling app_main()[0m
+[0;32mI (318) payload: SPI Bus Active[0m
+[0;33mW (318) gpio: conflict found for GPIO[22][0m
+[0;32mI (518) sdspi_transaction: cmd=5, R1 response: command not supported[0m
+[1;31mE (528) sdmmc_common: sdmmc_init_ocr: send_op_cond (1) returned 0x107[0m
+[1;31mE (528) vfs_fat_sdmmc: sdmmc_card_init failed (0x107).[0m
+[0;33mW (528) gpio: conflict found for GPIO[22][0m
+[1;31mE (528) vfs_fat_sdmmc: esp_vfs_fat_sdspi_sdcard_init failed (0x107).[0m
+[1;31mE (538) payload: SD card mount failed: ESP_ERR_TIMEOUT[0m
+[0;33mW (538) gpio: conflict found for GPIO[22][0m
+[0;33mW (548) gpio: conflict found for GPIO[5][0m
+[0;33mW (548) gpio: conflict found for GPIO[21][0m
+[0;32mI (548) payload: IMU Initialized[0m
+[0;32mI (868) payload: IMU NRST released — INT pin level: 0 (expect 0 if chip is alive)[0m
+[0;32mI (918) payload: IMU reset OK — drained 3 startup packets[0m
+[0;32mI (918) payload: enable rot_vec: ESP_OK[0m
+[0;32mI (918) payload: enable accel:   ESP_OK[0m
+[0;32mI (918) payload: enable lin_acc: ESP_OK[0m
+[0;32mI (958) payload: Payload Initialized[0m
+[0;32mI (958) payload: state 1 -> 3[0m
+[0;32mI (958) main_task: Returned from app_main()[0m
+[0;32mI (968) payload: ch2 pkt: len=21 id=0xFC[0m
+[0;32mI (978) payload: deploying lift: 500 steps on STEP1[0m
+[0;32mI (1018) payload: ch2 pkt: len=21 id=0xFC[0m
+[0;32mI (1018) payload: ch2 pkt: len=21 id=0xFC[0m
+[0;32mI (1298) payload: IMU  a=[0.42 -0.96 9.38] |a|=9.44  q=[0.8908 -0.0538 0.0022 -0.4512]  la=[0.00 -0.01 -0.00][0m
+[0;32mI (1478) payload: lift deploy done, aligning roll[0m
+[0;32mI (1478) payload: deploy sequence complete[0m
+[0;32mI (1608) payload: IMU  a=[0.42 -0.96 9.43] |a|=9.48  q=[0.8908 -0.0543 0.0024 -0.4512]  la=[0.00 -0.00 -0.01][0m
+[0;32mI (1908) payload: IMU  a=[0.42 -0.96 9.38] |a|=9.44  q=[0.8907 -0.0545 0.0024 -0.4512]  la=[0.00 -0.00 -0.01][0m
+[0;32mI (1958) payload: LDR N=548 S=485 E=53 W=0  ew_sum=53 ns_sum=1033[0m
+[0;32mI (2218) payload: IMU  a=[0.42 -0.92 9.38] |a|=9.44  q=[0.8907 -0.0547 0.0026 -0.4512]  la=[0.00 0.04 -0.01][0m
+[0;32mI (2528) payload: IMU  a=[0.42 -0.92 9.43] |a|=9.48  q=[0.8908 -0.0549 0.0026 -0.4511]  la=[0.00 -0.00 -0.01][0m
+[0;32mI (2828) payload: IMU  a=[0.42 -0.96 9.38] |a|=9.44  q=[0.8908 -0.0549 0.0027 -0.4511]  la=[0.00 0.04 0.02][0m
+[0;32mI (2958) payload: LDR N=551 S=485 E=56 W=0  ew_sum=56 ns_sum=1036[0m
+[0;32mI (3138) payload: IMU  a=[0.42 -0.96 9.43] |a|=9.48  q=[0.8908 -0.0550 0.0027 -0.4510]  la=[0.01 -0.00 0.02][0m
+[0;32mI (3448) payload: IMU  a=[0.42 -0.96 9.38] |a|=9.44  q=[0.8908 -0.0551 0.0029 -0.4510]  la=[0.00 -0.00 -0.01][0m
+[0;32mI (3748) payload: IMU  a=[0.42 -0.96 9.43] |a|=9.48  q=[0.8908 -0.0551 0.0029 -0.4510]  la=[0.00 -0.00 -0.01][0m
+[0;32mI (3958) payload: LDR N=550 S=487 E=57 W=0  ew_sum=57 ns_sum=1037[0m
+[0;32mI (4058) payload: IMU  a=[0.42 -0.92 9.38] |a|=9.44  q=[0.8908 -0.0551 0.0029 -0.4510]  la=[0.00 0.04 -0.01][0m
+[0;32mI (4368) payload: IMU  a=[0.42 -0.92 9.38] |a|=9.44  q=[0.8908 -0.0551 0.0029 -0.4510]  la=[0.00 -0.00 -0.01][0m
+[0;32mI (4668) payload: IMU  a=[0.42 -0.92 9.38] |a|=9.44  q=[0.8908 -0.0551 0.0029 -0.4510]  la=[0.00 -0.00 0.02][0m
+[0;32mI (4958) payload: LDR N=550 S=490 E=56 W=0  ew_sum=56 ns_sum=1040[0m
+[0;32mI (4978) payload: IMU  a=[0.42 -0.96 9.43] |a|=9.48  q=[0.8908 -0.0551 0.0029 -0.4510]  la=[0.04 -0.00 0.02][0m
+[0;32mI (5288) payload: IMU  a=[0.42 -0.96 9.38] |a|=9.44  q=[0.8907 -0.0552 0.0028 -0.4510]  la=[0.00 -0.00 -0.02][0m
+[0;32mI (5588) payload: IMU  a=[0.42 -0.96 9.38] |a|=9.44  q=[0.8907 -0.0552 0.0029 -0.4510]  la=[0.00 -0.00 -0.01][0m
+[0;32mI (5898) payload: IMU  a=[0.42 -0.96 9.38] |a|=9.44  q=[0.8908 -0.0552 0.0029 -0.4510]  la=[-0.04 -0.00 0.02][0m
+[0;32mI (5958) payload: LDR N=554 S=489 E=69 W=0  ew_sum=69 ns_sum=1043[0m
+[0;32mI (6208) payload: IMU  a=[0.42 -0.96 9.43] |a|=9.48  q=[0.8908 -0.0551 0.0029 -0.4510]  la=[-0.01 -0.00 0.02][0m
+[0;32mI (6508) payload: IMU  a=[0.42 -0.96 9.43] |a|=9.48  q=[0.8907 -0.0552 0.0027 -0.4510]  la=[-0.01 -0.00 0.02][0m
+[0;32mI (6818) payload: IMU  a=[0.42 -0.96 9.38] |a|=9.44  q=[0.8907 -0.0552 0.0027 -0.4510]  la=[-0.01 -0.00 -0.01][0m
+[0;32mI (6958) payload: LDR N=553 S=492 E=87 W=0  ew_sum=87 ns_sum=1045[0m
+[0;32mI (7128) payload: IMU  a=[0.42 -0.96 9.43] |a|=9.48  q=[0.8907 -0.0552 0.0027 -0.4510]  la=[-0.01 0.00 0.02][0m
+[0;32mI (7428) payload: IMU  a=[0.42 -0.96 9.38] |a|=9.44  q=[0.8907 -0.0552 0.0027 -0.4510]  la=[0.00 -0.00 -0.02][0m
+[0;32mI (7738) payload: IMU  a=[0.42 -0.96 9.43] |a|=9.48  q=[0.8907 -0.0552 0.0028 -0.4510]  la=[0.00 0.00 0.02][0m
+[0;32mI (7958) payload: LDR N=556 S=493 E=94 W=0  ew_sum=94 ns_sum=1049[0m
+[0;32mI (8048) payload: IMU  a=[0.42 -0.92 9.43] |a|=9.48  q=[0.8907 -0.0552 0.0029 -0.4510]  la=[-0.04 -0.00 -0.01][0m
+[0;32mI (8348) payload: IMU  a=[0.42 -0.92 9.38] |a|=9.44  q=[0.8907 -0.0552 0.0029 -0.4510]  la=[0.00 0.04 -0.01][0m
+[0;32mI (8658) payload: IMU  a=[0.42 -0.96 9.38] |a|=9.44  q=[0.8907 -0.0552 0.0029 -0.4510]  la=[0.00 -0.00 0.02][0m
+[0;32mI (8958) payload: LDR N=553 S=494 E=65 W=0  ew_sum=65 ns_sum=1047[0m
+[0;32mI (8968) payload: IMU  a=[0.42 -0.96 9.43] |a|=9.48  q=[0.8908 -0.0552 0.0029 -0.4510]  la=[0.04 -0.00 0.02][0m
+[0;32mI (9268) payload: IMU  a=[0.42 -0.96 9.38] |a|=9.44  q=[0.8908 -0.0551 0.0029 -0.4510]  la=[0.00 -0.01 -0.02][0m
+[0;32mI (9578) payload: IMU  a=[0.42 -0.96 9.43] |a|=9.48  q=[0.8908 -0.0551 0.0029 -0.4510]  la=[0.00 -0.00 0.02][0m
+[0;32mI (9888) payload: IMU  a=[0.42 -0.96 9.38] |a|=9.44  q=[0.8908 -0.0551 0.0029 -0.4510]  la=[0.04 0.04 -0.06][0m
+[0;32mI (9958) payload: LDR N=556 S=494 E=86 W=0  ew_sum=86 ns_sum=1050[0m
+[0;32mI (10188) payload: IMU  a=[0.42 -0.96 9.43] |a|=9.48  q=[0.8908 -0.0551 0.0029 -0.4510]  la=[0.00 -0.00 0.02][0m
+[0;32mI (10498) payload: IMU  a=[0.46 -0.92 9.42] |a|=9.48  q=[0.8908 -0.0551 0.0029 -0.4510]  la=[0.00 -0.00 -0.01][0m
+[0;32mI (10808) payload: IMU  a=[0.42 -0.96 9.43] |a|=9.48  q=[0.8908 -0.0551 0.0029 -0.4510]  la=[0.00 -0.00 0.02][0m
+[0;32mI (10958) payload: LDR N=554 S=498 E=91 W=0  ew_sum=91 ns_sum=1052[0m
+[0;32mI (11108) payload: IMU  a=[0.42 -0.96 9.38] |a|=9.44  q=[0.8908 -0.0551 0.0029 -0.4510]  la=[0.00 -0.00 -0.02][0m
+[0;32mI (11418) payload: IMU  a=[0.42 -0.92 9.38] |a|=9.44  q=[0.8908 -0.0551 0.0029 -0.4510]  la=[0.00 -0.00 -0.02][0m
+[0;32mI (11728) payload: IMU  a=[0.42 -0.96 9.43] |a|=9.48  q=[0.8908 -0.0551 0.0029 -0.4510]  la=[0.04 -0.00 -0.01][0m
+[0;32mI (11958) payload: LDR N=555 S=491 E=78 W=0  ew_sum=78 ns_sum=1046[0m
+[0;32mI (12028) payload: IMU  a=[0.42 -0.92 9.38] |a|=9.44  q=[0.8908 -0.0551 0.0029 -0.4510]  la=[0.00 0.04 -0.01][0m
+[0;32mI (12338) payload: IMU  a=[0.42 -0.96 9.38] |a|=9.44  q=[0.8908 -0.0551 0.0029 -0.4510]  la=[0.00 -0.00 0.02][0m
+[0;32mI (12638) payload: IMU  a=[0.42 -0.96 9.43] |a|=9.48  q=[0.8908 -0.0551 0.0028 -0.4510]  la=[-0.01 -0.00 -0.02][0m
+[0;32mI (12948) payload: IMU  a=[0.42 -0.96 9.43] |a|=9.48  q=[0.8908 -0.0551 0.0028 -0.4510]  la=[0.00 -0.00 0.02][0m
+[0;32mI (12958) payload: LDR N=558 S=493 E=84 W=0  ew_sum=84 ns_sum=1051[0m
+[0;32mI (13258) payload: IMU  a=[0.42 -0.96 9.38] |a|=9.44  q=[0.8908 -0.0551 0.0029 -0.4510]  la=[0.00 0.04 0.02][0m
+[0;32mI (13558) payload: IMU  a=[0.42 -0.96 9.38] |a|=9.44  q=[0.8908 -0.0551 0.0029 -0.4510]  la=[0.00 -0.00 0.02][0m
+[0;32mI (13868) payload: IMU  a=[0.42 -0.96 9.43] |a|=9.48  q=[0.8908 -0.0551 0.0029 -0.4510]  la=[0.00 -0.00 0.02][0m
+[0;32mI (13958) payload: LDR N=559 S=495 E=67 W=0  ew_sum=67 ns_sum=1054[0m
+[0;32mI (14178) payload: IMU  a=[0.42 -0.96 9.43] |a|=9.48  q=[0.8908 -0.0551 0.0029 -0.4510]  la=[0.00 -0.00 0.02][0m
+[0;32mI (14488) payload: IMU  a=[0.42 -0.96 9.38] |a|=9.44  q=[0.8908 -0.0551 0.0029 -0.4510]  la=[0.00 -0.00 0.02][0m
+[0;32mI (14788) payload: IMU  a=[0.42 -0.96 9.43] |a|=9.48  q=[0.8908 -0.0551 0.0029 -0.4510]  la=[0.00 -0.04 0.02][0m
+[0;32mI (14958) payload: LDR N=559 S=499 E=73 W=0  ew_sum=73 ns_sum=1058[0m
+[0;32mI (15098) payload: IMU  a=[0.42 -0.96 9.43] |a|=9.48  q=[0.8908 -0.0551 0.0029 -0.4510]  la=[0.00 -0.00 0.02][0m
+[0;32mI (15408) payload: IMU  a=[0.42 -0.96 9.43] |a|=9.48  q=[0.8908 -0.0551 0.0029 -0.4510]  la=[0.00 -0.00 -0.02][0m
+[0;32mI (15708) payload: IMU  a=[0.42 -0.96 9.38] |a|=9.44  q=[0.8908 -0.0551 0.0029 -0.4510]  la=[0.00 0.04 0.02][0m
+[0;32mI (15958) payload: LDR N=558 S=498 E=85 W=0  ew_sum=85 ns_sum=1056[0m
+[0;32mI (16018) payload: IMU  a=[0.42 -0.96 9.43] |a|=9.48  q=[0.8908 -0.0551 0.0029 -0.4510]  la=[0.00 -0.00 0.02][0m
+[0;32mI (16328) payload: IMU  a=[0.42 -0.92 9.38] |a|=9.44  q=[0.8908 -0.0551 0.0029 -0.4510]  la=[0.00 -0.00 -0.01][0m
+[0;32mI (16628) payload: IMU  a=[0.42 -0.96 9.43] |a|=9.48  q=[0.8908 -0.0551 0.0029 -0.4510]  la=[0.00 -0.00 0.02][0m
+[0;32mI (16938) payload: IMU  a=[0.42 -0.96 9.38] |a|=9.44  q=[0.8908 -0.0551 0.0029 -0.4510]  la=[0.00 -0.00 -0.01][0m
+[0;32mI (16958) payload: LDR N=550 S=487 E=65 W=0  ew_sum=65 ns_sum=1037[0m

@@ -1,4 +1,5 @@
 "-specs=/home/jonathan/esp/payload/build/bootloader/specs/picolibc.specs"
+-Wno-frame-address
 -mlongcalls
 -fno-builtin-memcpy
 -fno-builtin-memset

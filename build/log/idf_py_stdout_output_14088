@@ -1,0 +1,884 @@
+Command: /home/jonathan/.espressif/python_env/idf6.1_py3.13_env/bin/python /home/jonathan/esp/esp-idf/tools/idf_monitor.py -p /dev/ttyUSB0 -b 115200 --toolchain-prefix xtensa-esp32-elf- --target esp32 --revision 0 /home/jonathan/esp/payload/build/payload.elf /home/jonathan/esp/payload/build/bootloader/bootloader.elf -m '/home/jonathan/.espressif/python_env/idf6.1_py3.13_env/bin/python' '/home/jonathan/esp/esp-idf/tools/idf.py' '-p' '/dev/ttyUSB0'
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+— resetting sensor
+ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:460x17 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0040,len:6272
+load:0x40078000,len:15848
+load:0x40080400,len:3920
+entry 0x40080644
+[0;32mI (27) boot: ESP-IDF v6.1-dev-3863-g338f341110 2nd stage bootloader[0m
+[0;32mI (27) boot: compile time Jun 12 2026 22:38:45[0m
+[0;32mI (28) boot: Multicore bootloader[0m
+[0;32mI (30) boot: chip revision: v3.1[0m
+[0;32mI (33) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (37) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (40) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (44) boot: Enabling RNG early entropy source...[0m
+[0;32mI (49) boot: Partition Table:[0m
+[0;32mI (51) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (57) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (64) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (71) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (77) boot: End of partition table[0m
+[0;32mI (80) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0ead8h ( 60120) map[0m
+[0;32mI (109) esp_image: segment 1: paddr=0001eb00 vaddr=3ffb0000 size=01518h (  5400) load[0m
+[0;32mI (112) esp_image: segment 2: paddr=00020020 vaddr=400d0020 size=20660h (132704) map[0m
+[0;32mI (160) esp_image: segment 3: paddr=00040688 vaddr=3ffb1518 size=017f0h (  6128) load[0m
+[0;32mI (163) esp_image: segment 4: paddr=00041e80 vaddr=40080000 size=0d874h ( 55412) load[0m
+[0;32mI (187) esp_image: segment 5: paddr=0004f6fc vaddr=50000000 size=00028h (    40) load[0m
+[0;32mI (194) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (194) boot: Disabling RNG early entropy source...[0m
+[0;32mI (205) cpu_start: Multicore app[0m
+[0;32mI (213) cpu_start: GPIO 3 and 1 are used as console UART I/O pins[0m
+[0;32mI (213) cpu_start: Pro cpu start user code[0m
+[0;32mI (213) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (215) app_init: Application information:[0m
+[0;32mI (219) app_init: Project name:     payload[0m
+[0;32mI (223) app_init: App version:      d9542d3-dirty[0m
+[0;32mI (227) app_init: Compile time:     Jun 12 2026 20:13:35[0m
+[0;32mI (232) app_init: ELF file SHA256:  efe15ba09...[0m
+[0;32mI (237) app_init: ESP-IDF:          v6.1-dev-3863-g338f341110[0m
+[0;32mI (242) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (246) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (250) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (254) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (260) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (265) heap_init: At 3FFB38C8 len 0002C738 (177 KiB): DRAM[0m
+[0;32mI (271) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (276) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (282) heap_init: At 4008D874 len 0001278C (73 KiB): IRAM[0m
+[0;32mI (288) spi_flash: detected chip: generic[0m
+[0;32mI (290) spi_flash: flash io: dio[0m
+[0;33mW (293) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (307) main_task: Started on CPU0[0m
+[0;32mI (317) main_task: Calling app_main()[0m
+[0;32mI (317) payload: SPI Bus Active[0m
+[0;32mI (517) sdspi_transaction: cmd=5, R1 response: command not supported[0m
+[1;31mE (527) sdmmc_common: sdmmc_init_ocr: send_op_cond (1) returned 0x107[0m
+[1;31mE (527) vfs_fat_sdmmc: sdmmc_card_init failed (0x107).[0m
+[0;33mW (527) gpio: conflict found for GPIO[22][0m
+[1;31mE (527) vfs_fat_sdmmc: esp_vfs_fat_sdspi_sdcard_init failed (0x107).[0m
+[1;31mE (537) payload: SD card mount failed: ESP_ERR_TIMEOUT[0m
+[0;33mW (537) spi_common: GPIO 21 is conflict with others and be overwritten[0m
+[0;33mW (547) gpio: conflict found for GPIO[5][0m
+[0;32mI (547) payload: IMU Initialized[0m
+[0;32mI (687) payload: Payload Initialized[0m
+[0;32mI (687) payload: state 1 -> 3[0m
+[1;31mE (687) payload: failed to open /sdcard/log_0000.csv[0m
+[0;32mI (687) main_task: Returned from app_main()[0m
+[0;32mI (707) payload: deploying lift[0m
+[0;33mW (787) payload: IMU timeout — resetting sensor[0m
+[0;33mW (1087) payload: IMU timeout — resetting sensor[0m
+[0;33mW (1387) payload: IMU timeout — resetting sensor[0m
+[0;33mW (1687) payload: IMU timeout — resetting sensor[0m
+[0;33mW (1987) payload: IMU timeout — resetting sensor[0m
+[0;33mW (2287) payload: IMU timeout — resetting sensor[0m
+[0;33mW (2587) payload: IMU timeout — resetting sensor[0m
+[0;33mW (2887) payload: IMU timeout — resetting sensor[0m
+[0;33mW (3187) payload: IMU timeout — resetting sensor[0m
+[0;33mW (3487) payload: IMU timeout — resetting sensor[0m
+[0;33mW (3787) payload: IMU timeout — resetting sensor[0m
+[0;33mW (4087) payload: IMU timeout — resetting sensor[0m
+[0;33mW (4387) payload: IMU timeout — resetting sensor[0m
+[0;33mW (4687) payload: IMU timeout — resetting sensor[0m
+[0;33mW (4987) payload: IMU timeout — resetting sensor[0m
+[0;33mW (5287) payload: IMU timeout — resetting sensor[0m
+[0;33mW (5587) payload: IMU timeout — resetting sensor[0m
+[0;33mW (5887) payload: IMU timeout — resetting sensor[0m
+[0;33mW (6187) payload: IMU timeout — resetting sensor[0m
+[0;33mW (6487) payload: IMU timeout — resetting sensor[0m
+[0;33mW (6787) payload: IMU timeout — resetting sensor[0m
+[0;33mW (7087) payload: IMU timeout — resetting sensor[0m
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x17 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0040,len:6272
+load:0x40078000,len:15848
+load:0x40080400,len:3920
+entry 0x40080644
+[0;32mI (27) boot: ESP-IDF v6.1-dev-3863-g338f341110 2nd stage bootloader[0m
+[0;32mI (27) boot: compile time Jun 12 2026 22:38:45[0m
+[0;32mI (28) boot: Multicore bootloader[0m
+[0;32mI (30) boot: chip revision: v3.1[0m
+[0;32mI (33) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (37) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (40) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (44) boot: Enabling RNG early entropy source...[0m
+[0;32mI (49) boot: Partition Table:[0m
+[0;32mI (51) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (57) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (64) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (71) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (77) boot: End of partition table[0m
+[0;32mI (80) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0ead8h ( 60120) map[0m
+[0;32mI (109) esp_image: segment 1: paddr=0001eb00 vaddr=3ffb0000 size=01518h (  5400) load[0m
+[0;32mI (112) esp_image: segment 2: paddr=00020020 vaddr=400d0020 size=20660h (132704) map[0m
+[0;32mI (160) esp_image: segment 3: paddr=00040688 vaddr=3ffb1518 size=017f0h (  6128) load[0m
+[0;32mI (163) esp_image: segment 4: paddr=00041e80 vaddr=40080000 size=0d874h ( 55412) load[0m
+[0;32mI (187) esp_image: segment 5: paddr=0004f6fc vaddr=50000000 size=00028h (    40) load[0m
+[0;32mI (194) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (194) boot: Disabling RNG early entropy source...[0m
+[0;32mI (205) cpu_start: Multicore app[0m
+[0;32mI (213) cpu_start: GPIO 3 and 1 are used as console UART I/O pins[0m
+[0;32mI (213) cpu_start: Pro cpu start user code[0m
+[0;32mI (213) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (215) app_init: Application information:[0m
+[0;32mI (219) app_init: Project name:     payload[0m
+[0;32mI (223) app_init: App version:      d9542d3-dirty[0m
+[0;32mI (227) app_init: Compile time:     Jun 12 2026 20:13:35[0m
+[0;32mI (232) app_init: ELF file SHA256:  efe15ba09...[0m
+[0;32mI (237) app_init: ESP-IDF:          v6.1-dev-3863-g338f341110[0m
+[0;32mI (242) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (246) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (250) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (254) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (260) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (265) heap_init: At 3FFB38C8 len 0002C738 (177 KiB): DRAM[0m
+[0;32mI (271) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (276) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (282) heap_init: At 4008D874 len 0001278C (73 KiB): IRAM[0m
+[0;32mI (288) spi_flash: detected chip: generic[0m
+[0;32mI (290) spi_flash: flash io: dio[0m
+[0;33mW (293) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (307) main_task: Started on CPU0[0m
+[0;32mI (317) main_task: Calling app_main()[0m
+[0;32mI (317) payload: SPI Bus Active[0m
+[0;32mI (517) sdspi_transaction: cmd=5, R1 response: command not supported[0m
+[1;31mE (527) sdmmc_common: sdmmc_init_ocr: send_op_cond (1) returned 0x107[0m
+[1;31mE (527) vfs_fat_sdmmc: sdmmc_card_init failed (0x107).[0m
+[0;33mW (527) gpio: conflict found for GPIO[22][0m
+[1;31mE (527) vfs_fat_sdmmc: esp_vfs_fat_sdspi_sdcard_init failed (0x107).[0m
+[1;31mE (537) payload: SD card mount failed: ESP_ERR_TIMEOUT[0m
+[0;33mW (537) spi_common: GPIO 21 is conflict with others and be overwritten[0m
+[0;33mW (547) gpio: conflict found for GPIO[5][0m
+[0;32mI (547) payload: IMU Initialized[0m
+[0;32mI (687) payload: Payload Initialized[0m
+[0;32mI (687) payload: state 1 -> 3[0m
+[1;31mE (687) payload: failed to open /sdcard/log_0000.csv[0m
+[0;32mI (687) main_task: Returned from app_main()[0m
+[0;32mI (707) payload: deploying lift[0m
+[0;33mW (787) payload: IMU timeout — resetting sensor[0m
+[0;33mW (1087) payload: IMU timeout — resetting sensor[0m
+[0;33mW (1387) payload: IMU timeout — resetting sensor[0m
+[0;33mW (1687) payload: IMU timeout — resetting sensor[0m
+[0;33mW (1987) payload: IMU timeout — resetting sensor[0m
+[0;33mW (2287) payload: IMU timeout — resetting sensor[0m
+[0;33mW (2587) payload: IMU timeout — resetting sensor[0m
+[0;33mW (2887) payload: IMU timeout — resetting sensor[0m
+[0;33mW (3187) payload: IMU timeout — resetting sensor[0m
+[0;33mW (3487) payload: IMU timeout — resetting sensor[0m
+[0;33mW (3787) payload: IMU timeout — resetting sensor[0m
+[0;33mW (4087) payload: IMU timeout — resetting sensor[0m
+[0;33mW (4387) payload: IMU timeout — resetting sensor[0m
+[0;33mW (4687) payload: IMU timeout — resetting sensor[0m
+[0;33mW (4987) payload: IMU timeout — resetting sensor[0m
+[0;33mW (5287) payload: IMU timeout — resetting sensor[0m
+[0;33mW (5587) payload: IMU timeout — resetting sensor[0m
+[0;33mW (5887) payload: IMU timeout — resetting sensor[0m
+[0;33mW (6187) payload: IMU timeout — resetting sensor[0m
+[0;33mW (6487) payload: IMU timeout — resetting sensor[0m
+[0;33mW (6787) payload: IMU timeout — resetting sensor[0m
+[0;33mW (7087) payload: IMU timeout — resetting sensor[0m
+[0;33mW (7387) payload: IMU timeout — resetting sensor[0m
+[0;33mW (7687) payload: IMU timeout — resetting sensor[0m
+[0;33mW (7987) payload: IMU timeout — resetting sensor[0m
+[0;33mW (8287) payload: IMU timeout — resetting sensor[0m
+[0;33mW (8587) payload: IMU timeout — resetting sensor[0m
+[0;33mW (8887) payload: IMU timeout — resetting sensor[0m
+[0;33mW (9187) payload: IMU timeout — resetting sensor[0m
+[0;33mW (9487) payload: IMU timeout — resetting sensor[0m
+[0;33mW (9787) payload: IMU timeout — resetting sensor[0m
+[0;33mW (10087) payload: IMU timeout — resetting sensor[0m
+[0;33mW (10387) payload: IMU timeout — resetting sensor[0m
+[0;33mW (10687) payload: IMU timeout — resetting sensor[0m
+[0;33mW (10987) payload: IMU timeout — resetting sensor[0m
+[0;33mW (11287) payload: IMU timeout — resetting sensor[0m
+[0;33mW (11587) payload: IMU timeout — resetting sensor[0m
+[0;33mW (11887) payload: IMU timeout — resetting sensor[0m
+[0;33mW (12187) payload: IMU timeout — resetting sensor[0m
+[0;33mW (12487) payload: IMU timeout — resetting sensor[0m
+[0;33mW (12787) payload: IMU timeout — resetting sensor[0m
+[0;33mW (13087) payload: IMU timeout — resetting sensor[0m
+[0;33mW (13387) payload: IMU timeout — resetting sensor[0m
+[0;33mW (13687) payload: IMU timeout — resetting sensor[0m
+[0;33mW (13987) payload: IMU timeout — resetting sensor[0m
+[0;33mW (14287) payload: IMU timeout — resetting sensor[0m
+[0;33mW (14587) payload: IMU timeout — resetting sensor[0m
+[0;33mW (14887) payload: IMU timeout — resetting sensor[0m
+[0;33mW (15187) payload: IMU timeout — resetting sensor[0m
+[0;33mW (15487) payload: IMU timeout — resetting sensor[0m
+[0;33mW (15787) payload: IMU timeout — resetting sensor[0m
+[0;33mW (16087) payload: IMU timeout — resetting sensor[0m
+[0;33mW (16387) payload: IMU timeout — resetting sensor[0m
+[0;33mW (16687) payload: IMU timeout — resetting sensor[0m
+[0;33mW (16987) payload: IMU timeout — resetting sensor[0m
+[0;33mW (17287) payload: IMU timeout — resetting sensor[0m
+[0;33mW (17587) payload: IMU timeout — resetting sensor[0m
+[0;33mW (17887) payload: IMU timeout — resetting sensor[0m
+[0;33mW (18187) payload: IMU timeout — resetting sensor[0m
+[0;33mW (18487) payload: IMU timeout — resetting sensor[0m
+[0;33mW (18787) payload: IMU timeout — resetting sensor[0m
+[0;33mW (19087) payload: IMU timeout — resetting sensor[0m
+[0;33mW (19387) payload: IMU timeout — resetting sensor[0m
+[0;33mW (19687) payload: IMU timeout — resetting sensor[0m
+[0;33mW (19987) payload: IMU timeout — resetting sensor[0m
+[0;33mW (20287) payload: IMU timeout — resetting sensor[0m
+[0;33mW (20587) payload: IMU timeout — resetting sensor[0m
+[0;33mW (20887) payload: IMU timeout — resetting sensor[0m
+[0;33mW (21187) payload: IMU timeout — resetting sensor[0m
+[0;33mW (21487) payload: IMU timeout — resetting sensor[0m
+[0;33mW (21787) payload: IMU timeout — resetting sensor[0m
+[0;33mW (22087) payload: IMU timeout — resetting sensor[0m
+[0;33mW (22387) payload: IMU timeout — resetting sensor[0m
+[0;33mW (22687) payload: IMU timeout — resetting sensor[0m
+[0;33mW (22987) payload: IMU timeout — resetting sensor[0m
+[0;33mW (23287) payload: IMU timeout — resetting sensor[0m
+[0;33mW (23587) payload: IMU timeout — resetting sensor[0m
+[0;33mW (23887) payload: IMU timeout — resetting sensor[0m
+[0;33mW (24187) payload: IMU timeout — resetting sensor[0m
+[0;33mW (24487) payload: IMU timeout — resetting sensor[0m
+[0;33mW (24787) payload: IMU timeout — resetting sensor[0m
+[0;33mW (25087) payload: IMU timeout — resetting sensor[0m
+[0;33mW (25387) payload: IMU timeout — resetting sensor[0m
+[0;33mW (25687) payload: IMU timeout — resetting sensor[0m
+[0;33mW (25987) payload: IMU timeout — resetting sensor[0m
+[0;33mW (26287) payload: IMU timeout — resetting sensor[0m
+[0;33mW (26587) payload: IMU timeout — resetting sensor[0m
+[0;33mW (26887) payload: IMU timeout — resetting sensor[0m
+[0;33mW (27187) payload: IMU timeout — resetting sensor[0m
+[0;33mW (27487) payload: IMU timeout — resetting sensor[0m
+[0;33mW (27787) payload: IMU timeout — resetting sensor[0m
+[0;33mW (28087) payload: IMU timeout — resetting sensor[0m
+[0;33mW (28387) payload: IMU timeout — resetting sensor[0m
+[0;33mW (28687) payload: IMU timeout — resetting sensor[0m
+[0;33mW (28987) payload: IMU timeout — resetting sensor[0m
+[0;33mW (29287) payload: IMU timeout — resetting sensor[0m
+[0;33mW (29587) payload: IMU timeout — resetting sensor[0m
+[0;33mW (29887) payload: IMU timeout — resetting sensor[0m
+[0;33mW (30187) payload: IMU timeout — resetting sensor[0m
+[0;33mW (30487) payload: IMU timeout — resetting sensor[0m
+[0;33mW (30787) payload: IMU timeout — resetting sensor[0m
+[0;33mW (31087) payload: IMU timeout — resetting sensor[0m
+[0;33mW (31387) payload: IMU timeout — resetting sensor[0m
+[0;33mW (31687) payload: IMU timeout — resetting sensor[0m
+[0;33mW (31987) payload: IMU timeout — resetting sensor[0m
+[0;33mW (32287) payload: IMU timeout — resetting sensor[0m
+[0;33mW (32587) payload: IMU timeout — resetting sensor[0m
+[0;33mW (32887) payload: IMU timeout — resetting sensor[0m
+[0;33mW (33187) payload: IMU timeout — resetting sensor[0m
+[0;33mW (33487) payload: IMU timeout — resetting sensor[0m
+[0;33mW (33787) payload: IMU timeout — resetting sensor[0m
+[0;33mW (34087) payload: IMU timeout — resetting sensor[0m
+[0;33mW (34387) payload: IMU timeout — resetting sensor[0m
+[0;33mW (34687) payload: IMU timeout — resetting sensor[0m
+[0;33mW (34987) payload: IMU timeout — resetting sensor[0m
+[0;33mW (35287) payload: IMU timeout — resetting sensor[0m
+[0;33mW (35587) payload: IMU timeout — resetting sensor[0m
+[0;33mW (35887) payload: IMU timeout — resetting sensor[0m
+[0;33mW (36187) payload: IMU timeout — resetting sensor[0m
+[0;33mW (36487) payload: IMU timeout — resetting sensor[0m
+[0;33mW (36787) payload: IMU timeout — resetting sensor[0m
+[0;33mW (37087) payload: IMU timeout — resetting sensor[0m
+[0;33mW (37387) payload: IMU timeout — resetting sensor[0m
+[0;33mW (37687) payload: IMU timeout — resetting sensor[0m
+[0;33mW (37987) payload: IMU timeout — resetting sensor[0m
+[0;33mW (38287) payload: IMU timeout — resetting sensor[0m
+[0;33mW (38587) payload: IMU timeout — resetting sensor[0m
+[0;33mW (38887) payload: IMU timeout — resetting sensor[0m
+[0;33mW (39187) payload: IMU timeout — resetting sensor[0m
+[0;33mW (39487) payload: IMU timeout — resetting sensor[0m
+[0;33mW (39787) payload: IMU timeout — resetting sensor[0m
+[0;33mW (40087) payload: IMU timeout — resetting sensor[0m
+[0;33mW (40387) payload: IMU timeout — resetting sensor[0m
+[0;33mW (40687) payload: IMU timeout — resetting sensor[0m
+[0;33mW (40987) payload: IMU timeout — resetting sensor[0m
+[0;33mW (41287) payload: IMU timeout — resetting sensor[0m
+[0;33mW (41587) payload: IMU timeout — resetting sensor[0m
+[0;33mW (41887) payload: IMU timeout — resetting sensor[0m
+[0;33mW (42187) payload: IMU timeout — resetting sensor[0m
+[0;33mW (42487) payload: IMU timeout — resetting sensor[0m
+[0;33mW (42787) payload: IMU timeout — resetting sensor[0m
+[0;33mW (43087) payload: IMU timeout — resetting sensor[0m
+[0;33mW (43387) payload: IMU timeout — resetting sensor[0m
+[0;33mW (43687) payload: IMU timeout — resetting sensor[0m
+[0;33mW (43987) payload: IMU timeout — resetting sensor[0m
+[0;33mW (44287) payload: IMU timeout — resetting sensor[0m
+[0;33mW (44587) payload: IMU timeout — resetting sensor[0m
+[0;33mW (44887) payload: IMU timeout — resetting sensor[0m
+[0;33mW (45187) payload: IMU timeout — resetting sensor[0m
+[0;33mW (45487) payload: IMU timeout — resetting sensor[0m
+[0;33mW (45787) payload: IMU timeout — resetting sensor[0m
+[0;33mW (46087) payload: IMU timeout — resetting sensor[0m
+[0;33mW (46387) payload: IMU timeout — resetting sensor[0m
+[0;33mW (46687) payload: IMU timeout — resetting sensor[0m
+[0;33mW (46987) payload: IMU timeout — resetting sensor[0m
+[0;33mW (47287) payload: IMU timeout — resetting sensor[0m
+[0;33mW (47587) payload: IMU timeout — resetting sensor[0m
+[0;33mW (47887) payload: IMU timeout — resetting sensor[0m
+[0;33mW (48187) payload: IMU timeout — resetting sensor[0m
+[0;33mW (48487) payload: IMU timeout — resetting sensor[0m
+[0;33mW (48787) payload: IMU timeout — resetting sensor[0m
+[0;33mW (49087) payload: IMU timeout — resetting sensor[0m
+[0;33mW (49387) payload: IMU timeout — resetting sensor[0m
+[0;33mW (49687) payload: IMU timeout — resetting sensor[0m
+[0;33mW (49987) payload: IMU timeout — resetting sensor[0m
+[0;33mW (50287) payload: IMU timeout — resetting sensor[0m
+[0;33mW (50587) payload: IMU timeout — resetting sensor[0m
+[0;33mW (50887) payload: IMU timeout — resetting sensor[0m
+[0;33mW (51187) payload: IMU timeout — resetting sensor[0m
+[0;33mW (51487) payload: IMU timeout — resetting sensor[0m
+[0;33mW (51787) payload: IMU timeout — resetting sensor[0m
+[0;33mW (52087) payload: IMU timeout — resetting sensor[0m
+[0;33mW (52387) payload: IMU timeout — resetting sensor[0m
+[0;33mW (52687) payload: IMU timeout — resetting sensor[0m
+[0;33mW (52987) payload: IMU timeout — resetting sensor[0m
+[0;33mW (53287) payload: IMU timeout — resetting sensor[0m
+[0;33mW (53587) payload: IMU timeout — resetting sensor[0m
+[0;33mW (53887) payload: IMU timeout — resetting sensor[0m
+[0;33mW (54187) payload: IMU timeout — resetting sensor[0m
+[0;33mW (54487) payload: IMU timeout — resetting sensor[0m
+[0;33mW (54787) payload: IMU timeout — resetting sensor[0m
+[0;33mW (55087) payload: IMU timeout — resetting sensor[0m
+[0;33mW (55387) payload: IMU timeout — resetting sensor[0m
+[0;33mW (55687) payload: IMU timeout — resetting sensor[0m
+[0;33mW (55987) payload: IMU timeout — resetting sensor[0m
+[0;33mW (56287) payload: IMU timeout — resetting sensor[0m
+[0;33mW (56587) payload: IMU timeout — resetting sensor[0m
+[0;33mW (56887) payload: IMU timeout — resetting sensor[0m
+[0;33mW (57187) payload: IMU timeout — resetting sensor[0m
+[0;33mW (57487) payload: IMU timeout — resetting sensor[0m
+[0;33mW (57787) payload: IMU timeout — resetting sensor[0m
+[0;33mW (58087) payload: IMU timeout — resetting sensor[0m
+[0;33mW (58387) payload: IMU timeout — resetting sensor[0m
+[0;33mW (58687) payload: IMU timeout — resetting sensor[0m
+[0;33mW (58987) payload: IMU timeout — resetting sensor[0m
+[0;33mW (59287) payload: IMU timeout — resetting sensor[0m
+[0;33mW (59587) payload: IMU timeout — resetting sensor[0m
+[0;33mW (59887) payload: IMU timeout — resetting sensor[0m
+[0;33mW (60187) payload: IMU timeout — resetting sensor[0m
+[0;33mW (60487) payload: IMU timeout — resetting sensor[0m
+[0;33mW (60787) payload: IMU timeout — resetting sensor[0m
+[0;33mW (61087) payload: IMU timeout — resetting sensor[0m
+[0;33mW (61387) payload: IMU timeout — resetting sensor[0m
+[0;33mW (61687) payload: IMU timeout — resetting sensor[0m
+[0;33mW (61987) payload: IMU timeout — resetting sensor[0m
+[0;33mW (62287) payload: IMU timeout — resetting sensor[0m
+[0;33mW (62587) payload: IMU timeout — resetting sensor[0m
+[0;33mW (62887) payload: IMU timeout — resetting sensor[0m
+[0;33mW (63187) payload: IMU timeout — resetting sensor[0m
+[0;33mW (63487) payload: IMU timeout — resetting sensor[0m
+[0;33mW (63787) payload: IMU timeout — resetting sensor[0m
+[0;33mW (64087) payload: IMU timeout — resetting sensor[0m
+[0;33mW (64387) payload: IMU timeout — resetting sensor[0m
+[0;33mW (64687) payload: IMU timeout — resetting sensor[0m
+[0;33mW (64987) payload: IMU timeout — resetting sensor[0m
+[0;33mW (65287) payload: IMU timeout — resetting sensor[0m
+[0;33mW (65587) payload: IMU timeout — resetting sensor[0m
+[0;33mW (65887) payload: IMU timeout — resetting sensor[0m
+[0;33mW (66187) payload: IMU timeout — resetting sensor[0m
+[0;33mW (66487) payload: IMU timeout — resetting sensor[0m
+[0;33mW (66787) payload: IMU timeout — resetting sensor[0m
+[0;33mW (67087) payload: IMU timeout — resetting sensor[0m
+[0;33mW (67387) payload: IMU timeout — resetting sensor[0m
+[0;33mW (67687) payload: IMU timeout — resetting sensor[0m
+[0;33mW (67987) payload: IMU timeout — resetting sensor[0m
+[0;33mW (68287) payload: IMU timeout — resetting sensor[0m
+[0;33mW (68587) payload: IMU timeout — resetting sensor[0m
+[0;33mW (68887) payload: IMU timeout — resetting sensor[0m
+[0;33mW (69187) payload: IMU timeout — resetting sensor[0m
+[0;33mW (69487) payload: IMU timeout — resetting sensor[0m
+[0;33mW (69787) payload: IMU timeout — resetting sensor[0m
+[0;33mW (70087) payload: IMU timeout — resetting sensor[0m
+[0;33mW (70387) payload: IMU timeout — resetting sensor[0m
+[0;33mW (70687) payload: IMU timeout — resetting sensor[0m
+[0;33mW (70987) payload: IMU timeout — resetting sensor[0m
+[0;33mW (71287) payload: IMU timeout — resetting sensor[0m
+[0;33mW (71587) payload: IMU timeout — resetting sensor[0m
+[0;33mW (71887) payload: IMU timeout — resetting sensor[0m
+[0;33mW (72187) payload: IMU timeout — resetting sensor[0m
+[0;33mW (72487) payload: IMU timeout — resetting sensor[0m
+[0;33mW (72787) payload: IMU timeout — resetting sensor[0m
+[0;33mW (73087) payload: IMU timeout — resetting sensor[0m
+[0;33mW (73387) payload: IMU timeout — resetting sensor[0m
+[0;33mW (73687) payload: IMU timeout — resetting sensor[0m
+[0;33mW (73987) payload: IMU timeout — resetting sensor[0m
+[0;33mW (74287) payload: IMU timeout — resetting sensor[0m
+[0;33mW (74587) payload: IMU timeout — resetting sensor[0m
+[0;33mW (74887) payload: IMU timeout — resetting sensor[0m
+[0;33mW (75187) payload: IMU timeout — resetting sensor[0m
+[0;33mW (75487) payload: IMU timeout — resetting sensor[0m
+[0;33mW (75787) payload: IMU timeout — resetting sensor[0m
+[0;33mW (76087) payload: IMU timeout — resetting sensor[0m
+[0;33mW (76387) payload: IMU timeout — resetting sensor[0m
+[0;33mW (76687) payload: IMU timeout — resetting sensor[0m
+[0;33mW (76987) payload: IMU timeout — resetting sensor[0m
+[0;33mW (77287) payload: IMU timeout — resetting sensor[0m
+[0;33mW (77587) payload: IMU timeout — resetting sensor[0m
+[0;33mW (77887) payload: IMU timeout — resetting sensor[0m
+[0;33mW (78187) payload: IMU timeout — resetting sensor[0m
+[0;33mW (78487) payload: IMU timeout — resetting sensor[0m
+[0;33mW (78787) payload: IMU timeout — resetting sensor[0m
+[0;33mW (79087) payload: IMU timeout — resetting sensor[0m
+[0;33mW (79387) payload: IMU timeout — resetting sensor[0m
+[0;33mW (79687) payload: IMU timeout — resetting sensor[0m
+[0;33mW (79987) payload: IMU timeout — resetting sensor[0m
+[0;33mW (80287) payload: IMU timeout — resetting sensor[0m
+[0;33mW (80587) payload: IMU timeout — resetting sensor[0m
+[0;33mW (80887) payload: IMU timeout — resetting sensor[0m
+[0;33mW (81187) payload: IMU timeout — resetting sensor[0m
+[0;33mW (81487) payload: IMU timeout — resetting sensor[0m
+[0;33mW (81787) payload: IMU timeout — resetting sensor[0m
+[0;33mW (82087) payload: IMU timeout — resetting sensor[0m
+[0;33mW (82387) payload: IMU timeout — resetting sensor[0m
+[0;33mW (82687) payload: IMU timeout — resetting sensor[0m
+[0;33mW (82987) payload: IMU timeout — resetting sensor[0m
+[0;33mW (83287) payload: IMU timeout — resetting sensor[0m
+[0;33mW (83587) payload: IMU timeout — resetting sensor[0m
+[0;33mW (83887) payload: IMU timeout — resetting sensor[0m
+[0;33mW (84187) payload: IMU timeout — resetting sensor[0m
+[0;33mW (84487) payload: IMU timeout — resetting sensor[0m
+[0;33mW (84787) payload: IMU timeout — resetting sensor[0m
+[0;33mW (85087) payload: IMU timeout — resetting sensor[0m
+[0;33mW (85387) payload: IMU timeout — resetting sensor[0m
+[0;33mW (85687) payload: IMU timeout — resetting sensor[0m
+[0;33mW (85987) payload: IMU timeout — resetting sensor[0m
+[0;33mW (86287) payload: IMU timeout — resetting sensor[0m
+[0;33mW (86587) payload: IMU timeout — resetting sensor[0m
+[0;33mW (86887) payload: IMU timeout — resetting sensor[0m
+[0;33mW (87187) payload: IMU timeout — resetting sensor[0m
+[0;33mW (87487) payload: IMU timeout — resetting sensor[0m
+[0;33mW (87787) payload: IMU timeout — resetting sensor[0m
+[0;33mW (88087) payload: IMU timeout — resetting sensor[0m
+[0;33mW (88387) payload: IMU timeout — resetting sensor[0m
+[0;33mW (88687) payload: IMU timeout — resetting sensor[0m
+[0;33mW (88987) payload: IMU timeout — resetting sensor[0m
+[0;33mW (89287) payload: IMU timeout — resetting sensor[0m
+[0;33mW (89587) payload: IMU timeout — resetting sensor[0m
+[0;33mW (89887) payload: IMU timeout — resetting sensor[0m
+[0;33mW (90187) payload: IMU timeout — resetting sensor[0m
+[0;33mW (90487) payload: IMU timeout — resetting sensor[0m
+[0;33mW (90787) payload: IMU timeout — resetting sensor[0m

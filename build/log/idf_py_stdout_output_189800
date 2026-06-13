@@ -1,0 +1,16 @@
+Command: ninja app
+[1/6] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/payload.c.obj
+/home/jonathan/esp/payload/main/payload.c:347:13: warning: 'stepper_step' defined but not used [-Wunused-function]
+  347 | static void stepper_step(gpio_num_t pin_step, gpio_num_t pin_dir, bool dir,
+      |             ^~~~~~~~~~~~
+[2/6] Linking C static library esp-idf/main/libmain.a
+[3/6] Generating esp-idf/esp_system/ld/sections.ld
+[4/6] Linking CXX executable payload.elf
+[5/6] Generating binary image from built executable
+esptool v5.3.dev2
+Creating ESP32 image...
+Merged 3 ELF sections.
+Successfully created ESP32 image.
+Generated /home/jonathan/esp/payload/build/payload.bin
+[6/6] cd /home/jonathan/esp/payload/build && /home/jonathan/.espressif/python_env/idf6.1_py3.13_env/bin/python /home/jonathan/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/jonathan/esp/payload/build/partition_table/partition-table.bin /home/jonathan/esp/payload/build/payload.bin
+payload.bin binary size 0x3dd60 bytes. Smallest app partition is 0x100000 bytes. 0xc22a0 bytes (76%) free.

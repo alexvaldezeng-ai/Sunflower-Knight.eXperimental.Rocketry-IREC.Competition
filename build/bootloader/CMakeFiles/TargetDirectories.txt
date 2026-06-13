@@ -8,9 +8,6 @@
 /home/jonathan/esp/payload/build/bootloader/CMakeFiles/size.dir
 /home/jonathan/esp/payload/build/bootloader/CMakeFiles/size-files.dir
 /home/jonathan/esp/payload/build/bootloader/CMakeFiles/size-components.dir
-/home/jonathan/esp/payload/build/bootloader/CMakeFiles/dfu.dir
-/home/jonathan/esp/payload/build/bootloader/CMakeFiles/dfu-list.dir
-/home/jonathan/esp/payload/build/bootloader/CMakeFiles/dfu-flash.dir
 /home/jonathan/esp/payload/build/bootloader/CMakeFiles/uf2.dir
 /home/jonathan/esp/payload/build/bootloader/CMakeFiles/uf2-app.dir
 /home/jonathan/esp/payload/build/bootloader/CMakeFiles/bootloader_memory_ld_in_preprocess.dir
@@ -37,7 +34,6 @@
 /home/jonathan/esp/payload/build/bootloader/esp-idf/esp_hal_gpio/CMakeFiles/__idf_esp_hal_gpio.dir
 /home/jonathan/esp/payload/build/bootloader/esp-idf/esp_hal_gpio/CMakeFiles/edit_cache.dir
 /home/jonathan/esp/payload/build/bootloader/esp-idf/esp_hal_gpio/CMakeFiles/rebuild_cache.dir
-/home/jonathan/esp/payload/build/bootloader/esp-idf/esp_hal_usb/CMakeFiles/__idf_esp_hal_usb.dir
 /home/jonathan/esp/payload/build/bootloader/esp-idf/esp_hal_usb/CMakeFiles/edit_cache.dir
 /home/jonathan/esp/payload/build/bootloader/esp-idf/esp_hal_usb/CMakeFiles/rebuild_cache.dir
 /home/jonathan/esp/payload/build/bootloader/esp-idf/esp_hal_pmu/CMakeFiles/__idf_esp_hal_pmu.dir
@@ -45,7 +41,6 @@
 /home/jonathan/esp/payload/build/bootloader/esp-idf/esp_hal_pmu/CMakeFiles/rebuild_cache.dir
 /home/jonathan/esp/payload/build/bootloader/esp-idf/esp_hal_regi2c/CMakeFiles/edit_cache.dir
 /home/jonathan/esp/payload/build/bootloader/esp-idf/esp_hal_regi2c/CMakeFiles/rebuild_cache.dir
-/home/jonathan/esp/payload/build/bootloader/esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir
 /home/jonathan/esp/payload/build/bootloader/esp-idf/esp_hal_dma/CMakeFiles/edit_cache.dir
 /home/jonathan/esp/payload/build/bootloader/esp-idf/esp_hal_dma/CMakeFiles/rebuild_cache.dir
 /home/jonathan/esp/payload/build/bootloader/esp-idf/esp_hal_gpspi/CMakeFiles/__idf_esp_hal_gpspi.dir
@@ -83,6 +78,9 @@
 /home/jonathan/esp/payload/build/bootloader/esp-idf/esp_hal_uart/CMakeFiles/__idf_esp_hal_uart.dir
 /home/jonathan/esp/payload/build/bootloader/esp-idf/esp_hal_uart/CMakeFiles/edit_cache.dir
 /home/jonathan/esp/payload/build/bootloader/esp-idf/esp_hal_uart/CMakeFiles/rebuild_cache.dir
+/home/jonathan/esp/payload/build/bootloader/esp-idf/esp_hal_i2s/CMakeFiles/__idf_esp_hal_i2s.dir
+/home/jonathan/esp/payload/build/bootloader/esp-idf/esp_hal_i2s/CMakeFiles/edit_cache.dir
+/home/jonathan/esp/payload/build/bootloader/esp-idf/esp_hal_i2s/CMakeFiles/rebuild_cache.dir
 /home/jonathan/esp/payload/build/bootloader/esp-idf/esp_hal_ana_conv/CMakeFiles/__idf_esp_hal_ana_conv.dir
 /home/jonathan/esp/payload/build/bootloader/esp-idf/esp_hal_ana_conv/CMakeFiles/edit_cache.dir
 /home/jonathan/esp/payload/build/bootloader/esp-idf/esp_hal_ana_conv/CMakeFiles/rebuild_cache.dir
@@ -107,7 +105,6 @@
 /home/jonathan/esp/payload/build/bootloader/esp-idf/efuse/CMakeFiles/efuse_test_table.dir
 /home/jonathan/esp/payload/build/bootloader/esp-idf/efuse/CMakeFiles/edit_cache.dir
 /home/jonathan/esp/payload/build/bootloader/esp-idf/efuse/CMakeFiles/rebuild_cache.dir
-/home/jonathan/esp/payload/build/bootloader/esp-idf/esp_hal_systimer/CMakeFiles/__idf_esp_hal_systimer.dir
 /home/jonathan/esp/payload/build/bootloader/esp-idf/esp_hal_systimer/CMakeFiles/edit_cache.dir
 /home/jonathan/esp/payload/build/bootloader/esp-idf/esp_hal_systimer/CMakeFiles/rebuild_cache.dir
 /home/jonathan/esp/payload/build/bootloader/esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir
@@ -116,10 +113,8 @@
 /home/jonathan/esp/payload/build/bootloader/esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir
 /home/jonathan/esp/payload/build/bootloader/esp-idf/esp_hw_support/CMakeFiles/edit_cache.dir
 /home/jonathan/esp/payload/build/bootloader/esp-idf/esp_hw_support/CMakeFiles/rebuild_cache.dir
-/home/jonathan/esp/payload/build/bootloader/esp-idf/esp_hw_support/port/esp32s3/CMakeFiles/edit_cache.dir
-/home/jonathan/esp/payload/build/bootloader/esp-idf/esp_hw_support/port/esp32s3/CMakeFiles/rebuild_cache.dir
-/home/jonathan/esp/payload/build/bootloader/esp-idf/esp_hw_support/mspi/mspi_timing_tuning/port/esp32s3/CMakeFiles/edit_cache.dir
-/home/jonathan/esp/payload/build/bootloader/esp-idf/esp_hw_support/mspi/mspi_timing_tuning/port/esp32s3/CMakeFiles/rebuild_cache.dir
+/home/jonathan/esp/payload/build/bootloader/esp-idf/esp_hw_support/port/esp32/CMakeFiles/edit_cache.dir
+/home/jonathan/esp/payload/build/bootloader/esp-idf/esp_hw_support/port/esp32/CMakeFiles/rebuild_cache.dir
 /home/jonathan/esp/payload/build/bootloader/esp-idf/esp_hw_support/lowpower/CMakeFiles/edit_cache.dir
 /home/jonathan/esp/payload/build/bootloader/esp-idf/esp_hw_support/lowpower/CMakeFiles/rebuild_cache.dir
 /home/jonathan/esp/payload/build/bootloader/esp-idf/esp_hw_support/modem/CMakeFiles/edit_cache.dir

@@ -1,7 +1,7 @@
 {
     "version":            "1.3",
     "project_name":       "payload",
-    "project_version":    "1",
+    "project_version":    "d9542d3-dirty",
     "project_path":       "/home/jonathan/esp/payload",
     "idf_path":           "/home/jonathan/esp/esp-idf",
     "build_dir":          "/home/jonathan/esp/payload/build",
@@ -12,14 +12,14 @@
     "app_bin":            "payload.bin",
     "build_type":         "flash_app",
     "git_revision":       "v6.1-dev-3863-g338f341110",
-    "target":             "esp32s3",
-    "rev":                "",
+    "target":             "esp32",
+    "rev":                "0",
     "min_rev":            "0",
-    "max_rev":            "99",
+    "max_rev":            "399",
     "phy_data_partition": "",
     "monitor_baud" :      "115200",
-    "monitor_toolprefix": "xtensa-esp32s3-elf-",
-    "c_compiler":         "/home/jonathan/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc",
+    "monitor_toolprefix": "xtensa-esp32-elf-",
+    "c_compiler":         "/home/jonathan/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc",
     "config_environment" : {
         "COMPONENT_KCONFIGS" : "/home/jonathan/esp/esp-idf/components/bt/Kconfig;/home/jonathan/esp/esp-idf/components/console/Kconfig;/home/jonathan/esp/esp-idf/components/driver/Kconfig;/home/jonathan/esp/esp-idf/components/efuse/Kconfig;/home/jonathan/esp/esp-idf/components/esp-tls/Kconfig;/home/jonathan/esp/esp-idf/components/esp_adc/Kconfig;/home/jonathan/esp/esp-idf/components/esp_coex/Kconfig;/home/jonathan/esp/esp-idf/components/esp_common/Kconfig;/home/jonathan/esp/esp-idf/components/esp_driver_ana_cmpr/Kconfig;/home/jonathan/esp/esp-idf/components/esp_driver_bitscrambler/Kconfig;/home/jonathan/esp/esp-idf/components/esp_driver_cam/Kconfig;/home/jonathan/esp/esp-idf/components/esp_driver_cordic/Kconfig;/home/jonathan/esp/esp-idf/components/esp_driver_dac/Kconfig;/home/jonathan/esp/esp-idf/components/esp_driver_dma/Kconfig;/home/jonathan/esp/esp-idf/components/esp_driver_gpio/Kconfig;/home/jonathan/esp/esp-idf/components/esp_driver_gptimer/Kconfig;/home/jonathan/esp/esp-idf/components/esp_driver_i2c/Kconfig;/home/jonathan/esp/esp-idf/components/esp_driver_i2s/Kconfig;/home/jonathan/esp/esp-idf/components/esp_driver_i3c/Kconfig;/home/jonathan/esp/esp-idf/components/esp_driver_isp/Kconfig;/home/jonathan/esp/esp-idf/components/esp_driver_jpeg/Kconfig;/home/jonathan/esp/esp-idf/components/esp_driver_ledc/Kconfig;/home/jonathan/esp/esp-idf/components/esp_driver_mcpwm/Kconfig;/home/jonathan/esp/esp-idf/components/esp_driver_parlio/Kconfig;/home/jonathan/esp/esp-idf/components/esp_driver_pcnt/Kconfig;/home/jonathan/esp/esp-idf/components/esp_driver_rmt/Kconfig;/home/jonathan/esp/esp-idf/components/esp_driver_sdm/Kconfig;/home/jonathan/esp/esp-idf/components/esp_driver_sdmmc/Kconfig;/home/jonathan/esp/esp-idf/components/esp_driver_spi/Kconfig;/home/jonathan/esp/esp-idf/components/esp_driver_touch_sens/Kconfig;/home/jonathan/esp/esp-idf/components/esp_driver_tsens/Kconfig;/home/jonathan/esp/esp-idf/components/esp_driver_twai/Kconfig;/home/jonathan/esp/esp-idf/components/esp_driver_uart/Kconfig;/home/jonathan/esp/esp-idf/components/esp_driver_usb_serial_jtag/Kconfig;/home/jonathan/esp/esp-idf/components/esp_eth/Kconfig;/home/jonathan/esp/esp-idf/components/esp_event/Kconfig;/home/jonathan/esp/esp-idf/components/esp_gdbstub/Kconfig;/home/jonathan/esp/esp-idf/components/esp_hid/Kconfig;/home/jonathan/esp/esp-idf/components/esp_http_client/Kconfig;/home/jonathan/esp/esp-idf/components/esp_http_server/Kconfig;/home/jonathan/esp/esp-idf/components/esp_https_ota/Kconfig;/home/jonathan/esp/esp-idf/components/esp_https_server/Kconfig;/home/jonathan/esp/esp-idf/components/esp_hw_support/Kconfig;/home/jonathan/esp/esp-idf/components/esp_lcd/Kconfig;/home/jonathan/esp/esp-idf/components/esp_libc/Kconfig;/home/jonathan/esp/esp-idf/components/esp_mm/Kconfig;/home/jonathan/esp/esp-idf/components/esp_netif/Kconfig;/home/jonathan/esp/esp-idf/components/esp_partition/Kconfig;/home/jonathan/esp/esp-idf/components/esp_phy/Kconfig;/home/jonathan/esp/esp-idf/components/esp_pm/Kconfig;/home/jonathan/esp/esp-idf/components/esp_psram/Kconfig;/home/jonathan/esp/esp-idf/components/esp_ringbuf/Kconfig;/home/jonathan/esp/esp-idf/components/esp_rom/Kconfig;/home/jonathan/esp/esp-idf/components/esp_security/Kconfig;/home/jonathan/esp/esp-idf/components/esp_stdio/Kconfig;/home/jonathan/esp/esp-idf/components/esp_system/Kconfig;/home/jonathan/esp/esp-idf/components/esp_timer/Kconfig;/home/jonathan/esp/esp-idf/components/esp_trace/Kconfig;/home/jonathan/esp/esp-idf/components/esp_wifi/Kconfig;/home/jonathan/esp/esp-idf/components/espcoredump/Kconfig;/home/jonathan/esp/esp-idf/components/fatfs/Kconfig;/home/jonathan/esp/esp-idf/components/freertos/Kconfig;/home/jonathan/esp/esp-idf/components/hal/Kconfig;/home/jonathan/esp/esp-idf/components/heap/Kconfig;/home/jonathan/esp/esp-idf/components/ieee802154/Kconfig;/home/jonathan/esp/esp-idf/components/log/Kconfig;/home/jonathan/esp/esp-idf/components/lwip/Kconfig;/home/jonathan/esp/esp-idf/components/mbedtls/Kconfig;/home/jonathan/esp/esp-idf/components/nvs_flash/Kconfig;/home/jonathan/esp/esp-idf/components/nvs_sec_provider/Kconfig;/home/jonathan/esp/esp-idf/components/openthread/Kconfig;/home/jonathan/esp/esp-idf/components/protocomm/Kconfig;/home/jonathan/esp/esp-idf/components/pthread/Kconfig;/home/jonathan/esp/esp-idf/components/sdmmc/Kconfig;/home/jonathan/esp/esp-idf/components/soc/Kconfig;/home/jonathan/esp/esp-idf/components/spi_flash/Kconfig;/home/jonathan/esp/esp-idf/components/spiffs/Kconfig;/home/jonathan/esp/esp-idf/components/tcp_transport/Kconfig;/home/jonathan/esp/esp-idf/components/ulp/Kconfig;/home/jonathan/esp/esp-idf/components/unity/Kconfig;/home/jonathan/esp/esp-idf/components/vfs/Kconfig;/home/jonathan/esp/esp-idf/components/wear_levelling/Kconfig",
         "COMPONENT_KCONFIGS_PROJBUILD" : "/home/jonathan/esp/esp-idf/components/app_update/Kconfig.projbuild;/home/jonathan/esp/esp-idf/components/bootloader/Kconfig.projbuild;/home/jonathan/esp/esp-idf/components/esp_app_format/Kconfig.projbuild;/home/jonathan/esp/esp-idf/components/esp_rom/Kconfig.projbuild;/home/jonathan/esp/esp-idf/components/esptool_py/Kconfig.projbuild;/home/jonathan/esp/esp-idf/components/partition_table/Kconfig.projbuild"
@@ -85,7 +85,7 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "/home/jonathan/esp/payload/build/esp-idf/bootloader_support/libbootloader_support.a",
-            "sources": [ "/home/jonathan/esp/esp-idf/components/bootloader_support/src/bootloader_common.c", "/home/jonathan/esp/esp-idf/components/bootloader_support/src/bootloader_common_loader.c", "/home/jonathan/esp/esp-idf/components/bootloader_support/src/bootloader_clock_init.c", "/home/jonathan/esp/esp-idf/components/bootloader_support/src/bootloader_mem.c", "/home/jonathan/esp/esp-idf/components/bootloader_support/src/bootloader_random.c", "/home/jonathan/esp/esp-idf/components/bootloader_support/src/bootloader_efuse.c", "/home/jonathan/esp/esp-idf/components/bootloader_support/src/flash_encrypt.c", "/home/jonathan/esp/esp-idf/components/bootloader_support/src/secure_boot.c", "/home/jonathan/esp/esp-idf/components/bootloader_support/src/bootloader_random_esp32s3.c", "/home/jonathan/esp/esp-idf/components/bootloader_support/bootloader_flash/src/bootloader_flash.c", "/home/jonathan/esp/esp-idf/components/bootloader_support/bootloader_flash/src/flash_qio_mode.c", "/home/jonathan/esp/esp-idf/components/bootloader_support/bootloader_flash/src/bootloader_flash_config_esp32s3.c", "/home/jonathan/esp/esp-idf/components/bootloader_support/src/bootloader_utility.c", "/home/jonathan/esp/esp-idf/components/bootloader_support/src/flash_partitions.c", "/home/jonathan/esp/esp-idf/components/bootloader_support/src/esp_image_format.c", "/home/jonathan/esp/esp-idf/components/bootloader_support/src/bootloader_sha.c", "/home/jonathan/esp/esp-idf/components/bootloader_support/src/esp32s3/secure_boot_secure_features.c" ],
+            "sources": [ "/home/jonathan/esp/esp-idf/components/bootloader_support/src/bootloader_common.c", "/home/jonathan/esp/esp-idf/components/bootloader_support/src/bootloader_common_loader.c", "/home/jonathan/esp/esp-idf/components/bootloader_support/src/bootloader_clock_init.c", "/home/jonathan/esp/esp-idf/components/bootloader_support/src/bootloader_mem.c", "/home/jonathan/esp/esp-idf/components/bootloader_support/src/bootloader_random.c", "/home/jonathan/esp/esp-idf/components/bootloader_support/src/bootloader_efuse.c", "/home/jonathan/esp/esp-idf/components/bootloader_support/src/flash_encrypt.c", "/home/jonathan/esp/esp-idf/components/bootloader_support/src/secure_boot.c", "/home/jonathan/esp/esp-idf/components/bootloader_support/src/bootloader_random_esp32.c", "/home/jonathan/esp/esp-idf/components/bootloader_support/bootloader_flash/src/bootloader_flash.c", "/home/jonathan/esp/esp-idf/components/bootloader_support/bootloader_flash/src/flash_qio_mode.c", "/home/jonathan/esp/esp-idf/components/bootloader_support/bootloader_flash/src/bootloader_flash_config_esp32.c", "/home/jonathan/esp/esp-idf/components/bootloader_support/src/bootloader_utility.c", "/home/jonathan/esp/esp-idf/components/bootloader_support/src/flash_partitions.c", "/home/jonathan/esp/esp-idf/components/bootloader_support/src/esp_image_format.c", "/home/jonathan/esp/esp-idf/components/bootloader_support/src/bootloader_sha.c", "/home/jonathan/esp/esp-idf/components/bootloader_support/src/esp32/secure_boot_secure_features.c" ],
             "include_dirs": [ "include", "bootloader_flash/include" ]
         },
         "bt": {
@@ -160,8 +160,8 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "/home/jonathan/esp/payload/build/esp-idf/driver/libdriver.a",
-            "sources": [ "/home/jonathan/esp/esp-idf/components/driver/i2c/i2c.c", "/home/jonathan/esp/esp-idf/components/driver/touch_sensor/touch_sensor_common.c", "/home/jonathan/esp/esp-idf/components/driver/touch_sensor/esp32s3/touch_sensor.c", "/home/jonathan/esp/esp-idf/components/driver/twai/twai.c" ],
-            "include_dirs": [ "i2c/include", "touch_sensor/include", "twai/include", "touch_sensor/esp32s3/include" ]
+            "sources": [ "/home/jonathan/esp/esp-idf/components/driver/i2c/i2c.c", "/home/jonathan/esp/esp-idf/components/driver/touch_sensor/touch_sensor_common.c", "/home/jonathan/esp/esp-idf/components/driver/touch_sensor/esp32/touch_sensor.c", "/home/jonathan/esp/esp-idf/components/driver/twai/twai.c" ],
+            "include_dirs": [ "i2c/include", "touch_sensor/include", "twai/include", "touch_sensor/esp32/include" ]
         },
         "efuse": {
             "alias": "idf::efuse",
@@ -175,8 +175,8 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "/home/jonathan/esp/payload/build/esp-idf/efuse/libefuse.a",
-            "sources": [ "/home/jonathan/esp/esp-idf/components/efuse/esp32s3/esp_efuse_table.c", "/home/jonathan/esp/esp-idf/components/efuse/esp32s3/esp_efuse_fields.c", "/home/jonathan/esp/esp-idf/components/efuse/esp32s3/esp_efuse_rtc_calib.c", "/home/jonathan/esp/esp-idf/components/efuse/esp32s3/esp_efuse_utility.c", "/home/jonathan/esp/esp-idf/components/efuse/src/esp_efuse_api.c", "/home/jonathan/esp/esp-idf/components/efuse/src/esp_efuse_fields.c", "/home/jonathan/esp/esp-idf/components/efuse/src/esp_efuse_utility.c", "/home/jonathan/esp/esp-idf/components/efuse/src/efuse_controller/keys/with_key_purposes/esp_efuse_api_key.c", "/home/jonathan/esp/esp-idf/components/efuse/src/esp_efuse_startup.c" ],
-            "include_dirs": [ "include", "esp32s3/include" ]
+            "sources": [ "/home/jonathan/esp/esp-idf/components/efuse/esp32/esp_efuse_table.c", "/home/jonathan/esp/esp-idf/components/efuse/esp32/esp_efuse_fields.c", "/home/jonathan/esp/esp-idf/components/efuse/esp32/esp_efuse_utility.c", "/home/jonathan/esp/esp-idf/components/efuse/src/esp_efuse_api.c", "/home/jonathan/esp/esp-idf/components/efuse/src/esp_efuse_fields.c", "/home/jonathan/esp/esp-idf/components/efuse/src/esp_efuse_utility.c", "/home/jonathan/esp/esp-idf/components/efuse/src/efuse_controller/keys/without_key_purposes/three_key_blocks/esp_efuse_api_key.c", "/home/jonathan/esp/esp-idf/components/efuse/src/esp_efuse_startup.c" ],
+            "include_dirs": [ "include", "esp32/include" ]
         },
         "esp-tls": {
             "alias": "idf::esp-tls",
@@ -201,12 +201,12 @@
             "type": "LIBRARY",
             "lib": "__idf_esp_adc",
             "reqs": [ "esp_hal_ana_conv" ],
-            "priv_reqs": [ "esp_driver_gpio", "esp_driver_dma", "efuse", "esp_pm", "esp_ringbuf", "esp_mm" ],
+            "priv_reqs": [ "esp_driver_gpio", "esp_driver_dma", "efuse", "esp_pm", "esp_ringbuf", "esp_mm", "esp_driver_i2s" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "/home/jonathan/esp/payload/build/esp-idf/esp_adc/libesp_adc.a",
-            "sources": [ "/home/jonathan/esp/esp-idf/components/esp_adc/adc_oneshot.c", "/home/jonathan/esp/esp-idf/components/esp_adc/adc_common.c", "/home/jonathan/esp/esp-idf/components/esp_adc/adc_cali.c", "/home/jonathan/esp/esp-idf/components/esp_adc/adc_cali_curve_fitting.c", "/home/jonathan/esp/esp-idf/components/esp_adc/adc_continuous.c", "/home/jonathan/esp/esp-idf/components/esp_adc/adc_monitor.c", "/home/jonathan/esp/esp-idf/components/esp_adc/gdma/adc_dma.c", "/home/jonathan/esp/esp-idf/components/esp_adc/adc_filter.c", "/home/jonathan/esp/esp-idf/components/esp_adc/esp32s3/curve_fitting_coefficients.c" ],
-            "include_dirs": [ "include", "interface", "esp32s3/include" ]
+            "sources": [ "/home/jonathan/esp/esp-idf/components/esp_adc/adc_oneshot.c", "/home/jonathan/esp/esp-idf/components/esp_adc/adc_common.c", "/home/jonathan/esp/esp-idf/components/esp_adc/adc_cali.c", "/home/jonathan/esp/esp-idf/components/esp_adc/adc_cali_curve_fitting.c", "/home/jonathan/esp/esp-idf/components/esp_adc/adc_continuous.c", "/home/jonathan/esp/esp-idf/components/esp_adc/esp32/adc_dma.c", "/home/jonathan/esp/esp-idf/components/esp_adc/esp32/adc_cali_line_fitting.c" ],
+            "include_dirs": [ "include", "interface", "esp32/include" ]
         },
         "esp_app_format": {
             "alias": "idf::esp_app_format",
@@ -295,7 +295,7 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "/home/jonathan/esp/payload/build/esp-idf/esp_coex/libesp_coex.a",
-            "sources": [ "/home/jonathan/esp/esp-idf/components/esp_coex/esp32s3/esp_coex_adapter.c", "/home/jonathan/esp/esp-idf/components/esp_coex/src/coexist_debug_diagram.c", "/home/jonathan/esp/esp-idf/components/esp_coex/src/coexist_debug.c" ],
+            "sources": [ "/home/jonathan/esp/esp-idf/components/esp_coex/esp32/esp_coex_adapter.c", "/home/jonathan/esp/esp-idf/components/esp_coex/src/coexist_debug_diagram.c", "/home/jonathan/esp/esp-idf/components/esp_coex/src/coexist_debug.c" ],
             "include_dirs": [ "include" ]
         },
         "esp_common": {
@@ -355,8 +355,8 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "/home/jonathan/esp/payload/build/esp-idf/esp_driver_cam/libesp_driver_cam.a",
-            "sources": [ "/home/jonathan/esp/esp-idf/components/esp_driver_cam/esp_cam_ctlr.c", "/home/jonathan/esp/esp-idf/components/esp_driver_cam/dvp_share_ctrl.c", "/home/jonathan/esp/esp-idf/components/esp_driver_cam/dvp/src/esp_cam_ctlr_dvp_gdma.c", "/home/jonathan/esp/esp-idf/components/esp_driver_cam/dvp/src/esp_cam_ctlr_dvp_cam.c" ],
-            "include_dirs": [ "include", "interface", "dvp/include" ]
+            "sources": [ "/home/jonathan/esp/esp-idf/components/esp_driver_cam/esp_cam_ctlr.c", "/home/jonathan/esp/esp-idf/components/esp_driver_cam/dvp_share_ctrl.c" ],
+            "include_dirs": [ "include", "interface" ]
         },
         "esp_driver_cordic": {
             "alias": "idf::esp_driver_cordic",
@@ -378,14 +378,14 @@
             "target": "___idf_esp_driver_dac",
             "prefix": "idf",
             "dir": "/home/jonathan/esp/esp-idf/components/esp_driver_dac",
-            "type": "CONFIG_ONLY",
+            "type": "LIBRARY",
             "lib": "__idf_esp_driver_dac",
             "reqs": [ "esp_hal_ana_conv" ],
-            "priv_reqs": [ "esp_pm", "esp_driver_gpio", "esp_hal_clock" ],
+            "priv_reqs": [ "esp_pm", "esp_driver_gpio", "esp_hal_clock", "esp_driver_i2s" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "",
-            "sources": [],
+            "file": "/home/jonathan/esp/payload/build/esp-idf/esp_driver_dac/libesp_driver_dac.a",
+            "sources": [ "/home/jonathan/esp/esp-idf/components/esp_driver_dac/dac_oneshot.c", "/home/jonathan/esp/esp-idf/components/esp_driver_dac/dac_cosine.c", "/home/jonathan/esp/esp-idf/components/esp_driver_dac/dac_continuous.c", "/home/jonathan/esp/esp-idf/components/esp_driver_dac/dac_common.c", "/home/jonathan/esp/esp-idf/components/esp_driver_dac/esp32/dac_dma.c" ],
             "include_dirs": [ "./include" ]
         },
         "esp_driver_dma": {
@@ -400,7 +400,7 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "/home/jonathan/esp/payload/build/esp-idf/esp_driver_dma/libesp_driver_dma.a",
-            "sources": [ "/home/jonathan/esp/esp-idf/components/esp_driver_dma/src/esp_dma_utils.c", "/home/jonathan/esp/esp-idf/components/esp_driver_dma/src/gdma_link.c", "/home/jonathan/esp/esp-idf/components/esp_driver_dma/src/gdma.c", "/home/jonathan/esp/esp-idf/components/esp_driver_dma/src/esp_async_memcpy.c", "/home/jonathan/esp/esp-idf/components/esp_driver_dma/src/async_memcpy_gdma.c" ],
+            "sources": [ "/home/jonathan/esp/esp-idf/components/esp_driver_dma/src/esp_dma_utils.c", "/home/jonathan/esp/esp-idf/components/esp_driver_dma/src/gdma_link.c" ],
             "include_dirs": [ "include" ]
         },
         "esp_driver_gpio": {
@@ -415,7 +415,7 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "/home/jonathan/esp/payload/build/esp-idf/esp_driver_gpio/libesp_driver_gpio.a",
-            "sources": [ "/home/jonathan/esp/esp-idf/components/esp_driver_gpio/src/gpio.c", "/home/jonathan/esp/esp-idf/components/esp_driver_gpio/src/gpio_glitch_filter_ops.c", "/home/jonathan/esp/esp-idf/components/esp_driver_gpio/src/rtc_io.c", "/home/jonathan/esp/esp-idf/components/esp_driver_gpio/src/dedic_gpio.c", "/home/jonathan/esp/esp-idf/components/esp_driver_gpio/src/gpio_pin_glitch_filter.c" ],
+            "sources": [ "/home/jonathan/esp/esp-idf/components/esp_driver_gpio/src/gpio.c", "/home/jonathan/esp/esp-idf/components/esp_driver_gpio/src/gpio_glitch_filter_ops.c", "/home/jonathan/esp/esp-idf/components/esp_driver_gpio/src/rtc_io.c" ],
             "include_dirs": [ "include" ]
         },
         "esp_driver_gptimer": {
@@ -456,11 +456,11 @@
             "type": "LIBRARY",
             "lib": "__idf_esp_driver_i2s",
             "reqs": [ "esp_hal_i2s" ],
-            "priv_reqs": [ "esp_driver_gpio", "esp_driver_dma", "esp_pm", "esp_mm", "esp_hal_clock" ],
+            "priv_reqs": [ "esp_driver_gpio", "esp_driver_dma", "esp_pm", "esp_mm", "esp_hal_clock", "esp_hal_ana_conv" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "/home/jonathan/esp/payload/build/esp-idf/esp_driver_i2s/libesp_driver_i2s.a",
-            "sources": [ "/home/jonathan/esp/esp-idf/components/esp_driver_i2s/i2s_common.c", "/home/jonathan/esp/esp-idf/components/esp_driver_i2s/i2s_std.c", "/home/jonathan/esp/esp-idf/components/esp_driver_i2s/i2s_pdm.c", "/home/jonathan/esp/esp-idf/components/esp_driver_i2s/i2s_tdm.c", "/home/jonathan/esp/esp-idf/components/esp_driver_i2s/i2s_platform.c" ],
+            "sources": [ "/home/jonathan/esp/esp-idf/components/esp_driver_i2s/i2s_common.c", "/home/jonathan/esp/esp-idf/components/esp_driver_i2s/i2s_std.c", "/home/jonathan/esp/esp-idf/components/esp_driver_i2s/i2s_pdm.c", "/home/jonathan/esp/esp-idf/components/esp_driver_i2s/i2s_platform.c" ],
             "include_dirs": [ "include" ]
         },
         "esp_driver_i3c": {
@@ -618,14 +618,14 @@
             "target": "___idf_esp_driver_sdio",
             "prefix": "idf",
             "dir": "/home/jonathan/esp/esp-idf/components/esp_driver_sdio",
-            "type": "CONFIG_ONLY",
+            "type": "LIBRARY",
             "lib": "__idf_esp_driver_sdio",
             "reqs": [ "esp_hal_sd" ],
             "priv_reqs": [ "esp_driver_gpio", "esp_ringbuf" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "",
-            "sources": [],
+            "file": "/home/jonathan/esp/payload/build/esp-idf/esp_driver_sdio/libesp_driver_sdio.a",
+            "sources": [ "/home/jonathan/esp/esp-idf/components/esp_driver_sdio/src/sdio_slave.c" ],
             "include_dirs": [ "include" ]
         },
         "esp_driver_sdm": {
@@ -685,7 +685,7 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "/home/jonathan/esp/payload/build/esp-idf/esp_driver_spi/libesp_driver_spi.a",
-            "sources": [ "/home/jonathan/esp/esp-idf/components/esp_driver_spi/src/gpspi/spi_common.c", "/home/jonathan/esp/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c", "/home/jonathan/esp/esp-idf/components/esp_driver_spi/src/gpspi/spi_slave.c", "/home/jonathan/esp/esp-idf/components/esp_driver_spi/src/gpspi/spi_slave_hd.c" ],
+            "sources": [ "/home/jonathan/esp/esp-idf/components/esp_driver_spi/src/gpspi/spi_common.c", "/home/jonathan/esp/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c", "/home/jonathan/esp/esp-idf/components/esp_driver_spi/src/gpspi/spi_slave.c", "/home/jonathan/esp/esp-idf/components/esp_driver_spi/src/gpspi/spi_dma.c" ],
             "include_dirs": [ "include" ]
         },
         "esp_driver_touch_sens": {
@@ -696,26 +696,26 @@
             "type": "LIBRARY",
             "lib": "__idf_esp_driver_touch_sens",
             "reqs": [ "esp_hal_touch_sens" ],
-            "priv_reqs": [ "esp_driver_gpio" ],
+            "priv_reqs": [ "esp_driver_gpio", "esp_timer" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "/home/jonathan/esp/payload/build/esp-idf/esp_driver_touch_sens/libesp_driver_touch_sens.a",
-            "sources": [ "/home/jonathan/esp/esp-idf/components/esp_driver_touch_sens/common/touch_sens_common.c", "/home/jonathan/esp/esp-idf/components/esp_driver_touch_sens/hw_ver2/touch_version_specific.c" ],
-            "include_dirs": [ "include", "hw_ver2/include" ]
+            "sources": [ "/home/jonathan/esp/esp-idf/components/esp_driver_touch_sens/common/touch_sens_common.c", "/home/jonathan/esp/esp-idf/components/esp_driver_touch_sens/hw_ver1/touch_version_specific.c" ],
+            "include_dirs": [ "include", "hw_ver1/include" ]
         },
         "esp_driver_tsens": {
             "alias": "idf::esp_driver_tsens",
             "target": "___idf_esp_driver_tsens",
             "prefix": "idf",
             "dir": "/home/jonathan/esp/esp-idf/components/esp_driver_tsens",
-            "type": "LIBRARY",
+            "type": "CONFIG_ONLY",
             "lib": "__idf_esp_driver_tsens",
             "reqs": [ "esp_hal_ana_conv" ],
             "priv_reqs": [ "efuse" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/jonathan/esp/payload/build/esp-idf/esp_driver_tsens/libesp_driver_tsens.a",
-            "sources": [ "/home/jonathan/esp/esp-idf/components/esp_driver_tsens/src/temperature_sensor.c" ],
+            "file": "",
+            "sources": [],
             "include_dirs": [ "include" ]
         },
         "esp_driver_twai": {
@@ -745,7 +745,7 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "/home/jonathan/esp/payload/build/esp-idf/esp_driver_uart/libesp_driver_uart.a",
-            "sources": [ "/home/jonathan/esp/esp-idf/components/esp_driver_uart/src/uart.c", "/home/jonathan/esp/esp-idf/components/esp_driver_uart/src/uart_wakeup.c", "/home/jonathan/esp/esp-idf/components/esp_driver_uart/src/uhci.c", "/home/jonathan/esp/esp-idf/components/esp_driver_uart/src/uart_vfs.c" ],
+            "sources": [ "/home/jonathan/esp/esp-idf/components/esp_driver_uart/src/uart.c", "/home/jonathan/esp/esp-idf/components/esp_driver_uart/src/uart_wakeup.c", "/home/jonathan/esp/esp-idf/components/esp_driver_uart/src/uart_vfs.c" ],
             "include_dirs": [ "include" ]
         },
         "esp_driver_usb_serial_jtag": {
@@ -753,14 +753,14 @@
             "target": "___idf_esp_driver_usb_serial_jtag",
             "prefix": "idf",
             "dir": "/home/jonathan/esp/esp-idf/components/esp_driver_usb_serial_jtag",
-            "type": "LIBRARY",
+            "type": "CONFIG_ONLY",
             "lib": "__idf_esp_driver_usb_serial_jtag",
             "reqs": [],
             "priv_reqs": [ "esp_driver_gpio", "esp_ringbuf", "esp_pm", "esp_timer", "esp_hal_usb" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/jonathan/esp/payload/build/esp-idf/esp_driver_usb_serial_jtag/libesp_driver_usb_serial_jtag.a",
-            "sources": [ "/home/jonathan/esp/esp-idf/components/esp_driver_usb_serial_jtag/src/usb_serial_jtag.c", "/home/jonathan/esp/esp-idf/components/esp_driver_usb_serial_jtag/src/usb_serial_jtag_connection_monitor.c", "/home/jonathan/esp/esp-idf/components/esp_driver_usb_serial_jtag/src/usb_serial_jtag_vfs.c" ],
+            "file": "",
+            "sources": [],
             "include_dirs": [ "include" ]
         },
         "esp_eth": {
@@ -775,7 +775,7 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "/home/jonathan/esp/payload/build/esp-idf/esp_eth/libesp_eth.a",
-            "sources": [ "/home/jonathan/esp/esp-idf/components/esp_eth/src/esp_eth.c", "/home/jonathan/esp/esp-idf/components/esp_eth/src/phy/esp_eth_phy_802_3.c", "/home/jonathan/esp/esp-idf/components/esp_eth/src/esp_eth_netif_glue.c" ],
+            "sources": [ "/home/jonathan/esp/esp-idf/components/esp_eth/src/esp_eth.c", "/home/jonathan/esp/esp-idf/components/esp_eth/src/phy/esp_eth_phy_802_3.c", "/home/jonathan/esp/esp-idf/components/esp_eth/src/esp_eth_netif_glue.c", "/home/jonathan/esp/esp-idf/components/esp_eth/src/mac/esp_eth_mac_esp.c", "/home/jonathan/esp/esp-idf/components/esp_eth/src/mac/esp_eth_mac_esp_dma.c", "/home/jonathan/esp/esp-idf/components/esp_eth/src/mac/esp_eth_mac_esp_gpio.c", "/home/jonathan/esp/esp-idf/components/esp_eth/src/phy/esp_eth_phy_generic.c" ],
             "include_dirs": [ "include" ]
         },
         "esp_event": {
@@ -830,13 +830,13 @@
             "dir": "/home/jonathan/esp/esp-idf/components/esp_hal_ana_conv",
             "type": "LIBRARY",
             "lib": "__idf_esp_hal_ana_conv",
-            "reqs": [ "soc", "hal", "esp_hal_dma" ],
+            "reqs": [ "soc", "hal", "esp_hal_dma", "esp_hal_i2s" ],
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "/home/jonathan/esp/payload/build/esp-idf/esp_hal_ana_conv/libesp_hal_ana_conv.a",
-            "sources": [ "/home/jonathan/esp/esp-idf/components/esp_hal_ana_conv/esp32s3/adc_periph.c", "/home/jonathan/esp/esp-idf/components/esp_hal_ana_conv/adc_hal_common.c", "/home/jonathan/esp/esp-idf/components/esp_hal_ana_conv/adc_oneshot_hal.c", "/home/jonathan/esp/esp-idf/components/esp_hal_ana_conv/adc_hal.c", "/home/jonathan/esp/esp-idf/components/esp_hal_ana_conv/temperature_sensor_hal.c", "/home/jonathan/esp/esp-idf/components/esp_hal_ana_conv/esp32s3/temperature_sensor_periph.c" ],
-            "include_dirs": [ "include", "esp32s3/include" ]
+            "sources": [ "/home/jonathan/esp/esp-idf/components/esp_hal_ana_conv/esp32/adc_periph.c", "/home/jonathan/esp/esp-idf/components/esp_hal_ana_conv/adc_hal_common.c", "/home/jonathan/esp/esp-idf/components/esp_hal_ana_conv/adc_oneshot_hal.c", "/home/jonathan/esp/esp-idf/components/esp_hal_ana_conv/adc_hal.c", "/home/jonathan/esp/esp-idf/components/esp_hal_ana_conv/esp32/dac_periph.c" ],
+            "include_dirs": [ "include", "esp32/include" ]
         },
         "esp_hal_asrc": {
             "alias": "idf::esp_hal_asrc",
@@ -858,15 +858,15 @@
             "target": "___idf_esp_hal_cam",
             "prefix": "idf",
             "dir": "/home/jonathan/esp/esp-idf/components/esp_hal_cam",
-            "type": "LIBRARY",
+            "type": "CONFIG_ONLY",
             "lib": "__idf_esp_hal_cam",
             "reqs": [ "soc", "hal" ],
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/jonathan/esp/payload/build/esp-idf/esp_hal_cam/libesp_hal_cam.a",
-            "sources": [ "/home/jonathan/esp/esp-idf/components/esp_hal_cam/cam_hal.c", "/home/jonathan/esp/esp-idf/components/esp_hal_cam/esp32s3/cam_periph.c" ],
-            "include_dirs": [ "include", "esp32s3/include" ]
+            "file": "",
+            "sources": [],
+            "include_dirs": [ "include" ]
         },
         "esp_hal_clock": {
             "alias": "idf::esp_hal_clock",
@@ -880,8 +880,8 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "/home/jonathan/esp/payload/build/esp-idf/esp_hal_clock/libesp_hal_clock.a",
-            "sources": [ "/home/jonathan/esp/esp-idf/components/esp_hal_clock/esp32s3/clk_tree_hal.c" ],
-            "include_dirs": [ "include", "esp32s3/include" ]
+            "sources": [ "/home/jonathan/esp/esp-idf/components/esp_hal_clock/esp32/clk_tree_hal.c" ],
+            "include_dirs": [ "include", "esp32/include" ]
         },
         "esp_hal_cordic": {
             "alias": "idf::esp_hal_cordic",
@@ -903,30 +903,30 @@
             "target": "___idf_esp_hal_dma",
             "prefix": "idf",
             "dir": "/home/jonathan/esp/esp-idf/components/esp_hal_dma",
-            "type": "LIBRARY",
+            "type": "CONFIG_ONLY",
             "lib": "__idf_esp_hal_dma",
             "reqs": [ "soc", "hal" ],
-            "priv_reqs": [],
-            "managed_reqs": [],
-            "managed_priv_reqs": [],
-            "file": "/home/jonathan/esp/payload/build/esp-idf/esp_hal_dma/libesp_hal_dma.a",
-            "sources": [ "/home/jonathan/esp/esp-idf/components/esp_hal_dma/gdma_hal_top.c", "/home/jonathan/esp/esp-idf/components/esp_hal_dma/esp32s3/gdma_periph.c", "/home/jonathan/esp/esp-idf/components/esp_hal_dma/gdma_hal_ahb_v1.c" ],
-            "include_dirs": [ "include", "esp32s3/include" ]
-        },
-        "esp_hal_emac": {
-            "alias": "idf::esp_hal_emac",
-            "target": "___idf_esp_hal_emac",
-            "prefix": "idf",
-            "dir": "/home/jonathan/esp/esp-idf/components/esp_hal_emac",
-            "type": "CONFIG_ONLY",
-            "lib": "__idf_esp_hal_emac",
-            "reqs": [ "soc", "hal", "esp_hal_gpio" ],
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "",
             "sources": [],
             "include_dirs": [ "include" ]
+        },
+        "esp_hal_emac": {
+            "alias": "idf::esp_hal_emac",
+            "target": "___idf_esp_hal_emac",
+            "prefix": "idf",
+            "dir": "/home/jonathan/esp/esp-idf/components/esp_hal_emac",
+            "type": "LIBRARY",
+            "lib": "__idf_esp_hal_emac",
+            "reqs": [ "soc", "hal", "esp_hal_gpio" ],
+            "priv_reqs": [],
+            "managed_reqs": [],
+            "managed_priv_reqs": [],
+            "file": "/home/jonathan/esp/payload/build/esp-idf/esp_hal_emac/libesp_hal_emac.a",
+            "sources": [ "/home/jonathan/esp/esp-idf/components/esp_hal_emac/emac_hal.c", "/home/jonathan/esp/esp-idf/components/esp_hal_emac/esp32/emac_periph.c" ],
+            "include_dirs": [ "include", "esp32/include" ]
         },
         "esp_hal_gpio": {
             "alias": "idf::esp_hal_gpio",
@@ -940,8 +940,8 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "/home/jonathan/esp/payload/build/esp-idf/esp_hal_gpio/libesp_hal_gpio.a",
-            "sources": [ "/home/jonathan/esp/esp-idf/components/esp_hal_gpio/gpio_hal.c", "/home/jonathan/esp/esp-idf/components/esp_hal_gpio/rtc_io_hal.c", "/home/jonathan/esp/esp-idf/components/esp_hal_gpio/esp32s3/rtc_io_periph.c", "/home/jonathan/esp/esp-idf/components/esp_hal_gpio/esp32s3/dedic_gpio_periph.c", "/home/jonathan/esp/esp-idf/components/esp_hal_gpio/sdm_hal.c", "/home/jonathan/esp/esp-idf/components/esp_hal_gpio/esp32s3/sdm_periph.c" ],
-            "include_dirs": [ "include", "esp32s3/include" ]
+            "sources": [ "/home/jonathan/esp/esp-idf/components/esp_hal_gpio/gpio_hal.c", "/home/jonathan/esp/esp-idf/components/esp_hal_gpio/rtc_io_hal.c", "/home/jonathan/esp/esp-idf/components/esp_hal_gpio/esp32/rtc_io_periph.c", "/home/jonathan/esp/esp-idf/components/esp_hal_gpio/sdm_hal.c", "/home/jonathan/esp/esp-idf/components/esp_hal_gpio/esp32/sdm_periph.c" ],
+            "include_dirs": [ "include", "esp32/include" ]
         },
         "esp_hal_gpspi": {
             "alias": "idf::esp_hal_gpspi",
@@ -955,8 +955,8 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "/home/jonathan/esp/payload/build/esp-idf/esp_hal_gpspi/libesp_hal_gpspi.a",
-            "sources": [ "/home/jonathan/esp/esp-idf/components/esp_hal_gpspi/esp32s3/spi_periph.c", "/home/jonathan/esp/esp-idf/components/esp_hal_gpspi/spi_hal.c", "/home/jonathan/esp/esp-idf/components/esp_hal_gpspi/spi_hal_iram.c", "/home/jonathan/esp/esp-idf/components/esp_hal_gpspi/spi_slave_hal.c", "/home/jonathan/esp/esp-idf/components/esp_hal_gpspi/spi_slave_hal_iram.c", "/home/jonathan/esp/esp-idf/components/esp_hal_gpspi/spi_slave_hd_hal.c" ],
-            "include_dirs": [ "include", "esp32s3/include" ]
+            "sources": [ "/home/jonathan/esp/esp-idf/components/esp_hal_gpspi/esp32/spi_periph.c", "/home/jonathan/esp/esp-idf/components/esp_hal_gpspi/spi_hal.c", "/home/jonathan/esp/esp-idf/components/esp_hal_gpspi/spi_hal_iram.c", "/home/jonathan/esp/esp-idf/components/esp_hal_gpspi/spi_slave_hal.c", "/home/jonathan/esp/esp-idf/components/esp_hal_gpspi/spi_slave_hal_iram.c" ],
+            "include_dirs": [ "include", "esp32/include" ]
         },
         "esp_hal_i2c": {
             "alias": "idf::esp_hal_i2c",
@@ -970,8 +970,8 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "/home/jonathan/esp/payload/build/esp-idf/esp_hal_i2c/libesp_hal_i2c.a",
-            "sources": [ "/home/jonathan/esp/esp-idf/components/esp_hal_i2c/i2c_hal.c", "/home/jonathan/esp/esp-idf/components/esp_hal_i2c/i2c_hal_iram.c", "/home/jonathan/esp/esp-idf/components/esp_hal_i2c/esp32s3/i2c_periph.c" ],
-            "include_dirs": [ "esp32s3/include", "include" ]
+            "sources": [ "/home/jonathan/esp/esp-idf/components/esp_hal_i2c/i2c_hal.c", "/home/jonathan/esp/esp-idf/components/esp_hal_i2c/i2c_hal_iram.c", "/home/jonathan/esp/esp-idf/components/esp_hal_i2c/esp32/i2c_periph.c" ],
+            "include_dirs": [ "esp32/include", "include" ]
         },
         "esp_hal_i2s": {
             "alias": "idf::esp_hal_i2s",
@@ -985,8 +985,8 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "/home/jonathan/esp/payload/build/esp-idf/esp_hal_i2s/libesp_hal_i2s.a",
-            "sources": [ "/home/jonathan/esp/esp-idf/components/esp_hal_i2s/i2s_hal.c", "/home/jonathan/esp/esp-idf/components/esp_hal_i2s/esp32s3/i2s_periph.c" ],
-            "include_dirs": [ "include", "esp32s3/include" ]
+            "sources": [ "/home/jonathan/esp/esp-idf/components/esp_hal_i2s/i2s_hal.c", "/home/jonathan/esp/esp-idf/components/esp_hal_i2s/esp32/i2s_periph.c" ],
+            "include_dirs": [ "include", "esp32/include" ]
         },
         "esp_hal_i3c": {
             "alias": "idf::esp_hal_i3c",
@@ -1045,8 +1045,8 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "/home/jonathan/esp/payload/build/esp-idf/esp_hal_lcd/libesp_hal_lcd.a",
-            "sources": [ "/home/jonathan/esp/esp-idf/components/esp_hal_lcd/lcd_hal.c", "/home/jonathan/esp/esp-idf/components/esp_hal_lcd/esp32s3/lcd_periph.c" ],
-            "include_dirs": [ "include", "esp32s3/include" ]
+            "sources": [ "/home/jonathan/esp/esp-idf/components/esp_hal_lcd/esp32/lcd_periph.c" ],
+            "include_dirs": [ "include" ]
         },
         "esp_hal_ledc": {
             "alias": "idf::esp_hal_ledc",
@@ -1060,8 +1060,8 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "/home/jonathan/esp/payload/build/esp-idf/esp_hal_ledc/libesp_hal_ledc.a",
-            "sources": [ "/home/jonathan/esp/esp-idf/components/esp_hal_ledc/ledc_hal.c", "/home/jonathan/esp/esp-idf/components/esp_hal_ledc/ledc_hal_iram.c", "/home/jonathan/esp/esp-idf/components/esp_hal_ledc/esp32s3/ledc_periph.c" ],
-            "include_dirs": [ "include", "esp32s3/include" ]
+            "sources": [ "/home/jonathan/esp/esp-idf/components/esp_hal_ledc/ledc_hal.c", "/home/jonathan/esp/esp-idf/components/esp_hal_ledc/ledc_hal_iram.c", "/home/jonathan/esp/esp-idf/components/esp_hal_ledc/esp32/ledc_periph.c" ],
+            "include_dirs": [ "include", "esp32/include" ]
         },
         "esp_hal_mcpwm": {
             "alias": "idf::esp_hal_mcpwm",
@@ -1075,8 +1075,8 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "/home/jonathan/esp/payload/build/esp-idf/esp_hal_mcpwm/libesp_hal_mcpwm.a",
-            "sources": [ "/home/jonathan/esp/esp-idf/components/esp_hal_mcpwm/mcpwm_hal.c", "/home/jonathan/esp/esp-idf/components/esp_hal_mcpwm/esp32s3/mcpwm_periph.c" ],
-            "include_dirs": [ "include", "esp32s3/include" ]
+            "sources": [ "/home/jonathan/esp/esp-idf/components/esp_hal_mcpwm/mcpwm_hal.c", "/home/jonathan/esp/esp-idf/components/esp_hal_mcpwm/esp32/mcpwm_periph.c" ],
+            "include_dirs": [ "include", "esp32/include" ]
         },
         "esp_hal_mspi": {
             "alias": "idf::esp_hal_mspi",
@@ -1090,8 +1090,8 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "/home/jonathan/esp/payload/build/esp-idf/esp_hal_mspi/libesp_hal_mspi.a",
-            "sources": [ "/home/jonathan/esp/esp-idf/components/esp_hal_mspi/spi_flash_hal.c", "/home/jonathan/esp/esp-idf/components/esp_hal_mspi/spi_flash_hal_iram.c", "/home/jonathan/esp/esp-idf/components/esp_hal_mspi/spi_flash_encrypt_hal_iram.c", "/home/jonathan/esp/esp-idf/components/esp_hal_mspi/spi_flash_hal_gpspi.c", "/home/jonathan/esp/esp-idf/components/esp_hal_mspi/esp32s3/mspi_periph.c" ],
-            "include_dirs": [ "include", "esp32s3/include" ]
+            "sources": [ "/home/jonathan/esp/esp-idf/components/esp_hal_mspi/spi_flash_hal.c", "/home/jonathan/esp/esp-idf/components/esp_hal_mspi/spi_flash_hal_iram.c", "/home/jonathan/esp/esp-idf/components/esp_hal_mspi/spi_flash_encrypt_hal_iram.c", "/home/jonathan/esp/esp-idf/components/esp_hal_mspi/esp32/mspi_periph.c" ],
+            "include_dirs": [ "include", "esp32/include" ]
         },
         "esp_hal_parlio": {
             "alias": "idf::esp_hal_parlio",
@@ -1120,8 +1120,8 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "/home/jonathan/esp/payload/build/esp-idf/esp_hal_pcnt/libesp_hal_pcnt.a",
-            "sources": [ "/home/jonathan/esp/esp-idf/components/esp_hal_pcnt/pcnt_hal.c", "/home/jonathan/esp/esp-idf/components/esp_hal_pcnt/esp32s3/pcnt_periph.c" ],
-            "include_dirs": [ "include", "esp32s3/include" ]
+            "sources": [ "/home/jonathan/esp/esp-idf/components/esp_hal_pcnt/pcnt_hal.c", "/home/jonathan/esp/esp-idf/components/esp_hal_pcnt/esp32/pcnt_periph.c" ],
+            "include_dirs": [ "include", "esp32/include" ]
         },
         "esp_hal_pmu": {
             "alias": "idf::esp_hal_pmu",
@@ -1135,8 +1135,8 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "/home/jonathan/esp/payload/build/esp-idf/esp_hal_pmu/libesp_hal_pmu.a",
-            "sources": [ "/home/jonathan/esp/esp-idf/components/esp_hal_pmu/esp32s3/rtc_cntl_hal.c", "/home/jonathan/esp/esp-idf/components/esp_hal_pmu/brownout_hal.c" ],
-            "include_dirs": [ "include", "esp32s3/include" ]
+            "sources": [ "/home/jonathan/esp/esp-idf/components/esp_hal_pmu/brownout_hal.c" ],
+            "include_dirs": [ "include", "esp32/include" ]
         },
         "esp_hal_ppa": {
             "alias": "idf::esp_hal_ppa",
@@ -1166,7 +1166,7 @@
             "managed_priv_reqs": [],
             "file": "",
             "sources": [],
-            "include_dirs": [ "include", "esp32s3/include" ]
+            "include_dirs": [ "include", "esp32/include" ]
         },
         "esp_hal_rmt": {
             "alias": "idf::esp_hal_rmt",
@@ -1180,8 +1180,8 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "/home/jonathan/esp/payload/build/esp-idf/esp_hal_rmt/libesp_hal_rmt.a",
-            "sources": [ "/home/jonathan/esp/esp-idf/components/esp_hal_rmt/rmt_hal.c", "/home/jonathan/esp/esp-idf/components/esp_hal_rmt/esp32s3/rmt_periph.c" ],
-            "include_dirs": [ "include", "esp32s3/include" ]
+            "sources": [ "/home/jonathan/esp/esp-idf/components/esp_hal_rmt/rmt_hal.c", "/home/jonathan/esp/esp-idf/components/esp_hal_rmt/esp32/rmt_periph.c" ],
+            "include_dirs": [ "include", "esp32/include" ]
         },
         "esp_hal_rtc_timer": {
             "alias": "idf::esp_hal_rtc_timer",
@@ -1196,7 +1196,7 @@
             "managed_priv_reqs": [],
             "file": "",
             "sources": [],
-            "include_dirs": [ "include", "esp32s3/include" ]
+            "include_dirs": [ "include", "esp32/include" ]
         },
         "esp_hal_sd": {
             "alias": "idf::esp_hal_sd",
@@ -1210,8 +1210,8 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "/home/jonathan/esp/payload/build/esp-idf/esp_hal_sd/libesp_hal_sd.a",
-            "sources": [ "/home/jonathan/esp/esp-idf/components/esp_hal_sd/sdmmc_hal.c", "/home/jonathan/esp/esp-idf/components/esp_hal_sd/esp32s3/sdmmc_periph.c" ],
-            "include_dirs": [ "include", "esp32s3/include" ]
+            "sources": [ "/home/jonathan/esp/esp-idf/components/esp_hal_sd/sdmmc_hal.c", "/home/jonathan/esp/esp-idf/components/esp_hal_sd/esp32/sdmmc_periph.c", "/home/jonathan/esp/esp-idf/components/esp_hal_sd/sdio_slave_hal.c", "/home/jonathan/esp/esp-idf/components/esp_hal_sd/esp32/sdio_slave_periph.c" ],
+            "include_dirs": [ "include", "esp32/include" ]
         },
         "esp_hal_security": {
             "alias": "idf::esp_hal_security",
@@ -1225,23 +1225,23 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "/home/jonathan/esp/payload/build/esp-idf/esp_hal_security/libesp_hal_security.a",
-            "sources": [ "/home/jonathan/esp/esp-idf/components/esp_hal_security/mpi_hal.c", "/home/jonathan/esp/esp-idf/components/esp_hal_security/sha_hal.c", "/home/jonathan/esp/esp-idf/components/esp_hal_security/aes_hal.c", "/home/jonathan/esp/esp-idf/components/esp_hal_security/hmac_hal.c", "/home/jonathan/esp/esp-idf/components/esp_hal_security/ds_hal.c", "/home/jonathan/esp/esp-idf/components/esp_hal_security/mpu_hal.c" ],
-            "include_dirs": [ "esp32s3/include", "include" ]
+            "sources": [ "/home/jonathan/esp/esp-idf/components/esp_hal_security/mpi_hal.c", "/home/jonathan/esp/esp-idf/components/esp_hal_security/sha_hal.c", "/home/jonathan/esp/esp-idf/components/esp_hal_security/aes_hal.c", "/home/jonathan/esp/esp-idf/components/esp_hal_security/mpu_hal.c" ],
+            "include_dirs": [ "esp32/include", "include" ]
         },
         "esp_hal_systimer": {
             "alias": "idf::esp_hal_systimer",
             "target": "___idf_esp_hal_systimer",
             "prefix": "idf",
             "dir": "/home/jonathan/esp/esp-idf/components/esp_hal_systimer",
-            "type": "LIBRARY",
+            "type": "CONFIG_ONLY",
             "lib": "__idf_esp_hal_systimer",
             "reqs": [ "soc", "hal", "esp_rom" ],
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/jonathan/esp/payload/build/esp-idf/esp_hal_systimer/libesp_hal_systimer.a",
-            "sources": [ "/home/jonathan/esp/esp-idf/components/esp_hal_systimer/systimer_hal.c" ],
-            "include_dirs": [ "include", "esp32s3/include" ]
+            "file": "",
+            "sources": [],
+            "include_dirs": [ "include" ]
         },
         "esp_hal_timg": {
             "alias": "idf::esp_hal_timg",
@@ -1255,8 +1255,8 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "/home/jonathan/esp/payload/build/esp-idf/esp_hal_timg/libesp_hal_timg.a",
-            "sources": [ "/home/jonathan/esp/esp-idf/components/esp_hal_timg/timer_hal.c", "/home/jonathan/esp/esp-idf/components/esp_hal_timg/esp32s3/timer_periph.c" ],
-            "include_dirs": [ "include", "esp32s3/include" ]
+            "sources": [ "/home/jonathan/esp/esp-idf/components/esp_hal_timg/timer_hal.c", "/home/jonathan/esp/esp-idf/components/esp_hal_timg/esp32/timer_periph.c" ],
+            "include_dirs": [ "include", "esp32/include" ]
         },
         "esp_hal_touch_sens": {
             "alias": "idf::esp_hal_touch_sens",
@@ -1270,8 +1270,8 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "/home/jonathan/esp/payload/build/esp-idf/esp_hal_touch_sens/libesp_hal_touch_sens.a",
-            "sources": [ "/home/jonathan/esp/esp-idf/components/esp_hal_touch_sens/esp32s3/touch_sensor_legacy_hal.c", "/home/jonathan/esp/esp-idf/components/esp_hal_touch_sens/touch_sensor_legacy_hal.c", "/home/jonathan/esp/esp-idf/components/esp_hal_touch_sens/touch_sens_hal.c", "/home/jonathan/esp/esp-idf/components/esp_hal_touch_sens/esp32s3/touch_sensor_periph.c" ],
-            "include_dirs": [ "esp32s3/include", "include" ]
+            "sources": [ "/home/jonathan/esp/esp-idf/components/esp_hal_touch_sens/esp32/touch_sensor_legacy_hal.c", "/home/jonathan/esp/esp-idf/components/esp_hal_touch_sens/touch_sensor_legacy_hal.c", "/home/jonathan/esp/esp-idf/components/esp_hal_touch_sens/touch_sens_hal.c", "/home/jonathan/esp/esp-idf/components/esp_hal_touch_sens/esp32/touch_sensor_periph.c" ],
+            "include_dirs": [ "esp32/include", "include" ]
         },
         "esp_hal_twai": {
             "alias": "idf::esp_hal_twai",
@@ -1285,8 +1285,8 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "/home/jonathan/esp/payload/build/esp-idf/esp_hal_twai/libesp_hal_twai.a",
-            "sources": [ "/home/jonathan/esp/esp-idf/components/esp_hal_twai/esp32s3/twai_periph.c", "/home/jonathan/esp/esp-idf/components/esp_hal_twai/twai_hal_v1.c" ],
-            "include_dirs": [ "include", "esp32s3/include" ]
+            "sources": [ "/home/jonathan/esp/esp-idf/components/esp_hal_twai/esp32/twai_periph.c", "/home/jonathan/esp/esp-idf/components/esp_hal_twai/twai_hal_v1.c" ],
+            "include_dirs": [ "include", "esp32/include" ]
         },
         "esp_hal_uart": {
             "alias": "idf::esp_hal_uart",
@@ -1300,23 +1300,23 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "/home/jonathan/esp/payload/build/esp-idf/esp_hal_uart/libesp_hal_uart.a",
-            "sources": [ "/home/jonathan/esp/esp-idf/components/esp_hal_uart/uart_hal.c", "/home/jonathan/esp/esp-idf/components/esp_hal_uart/uart_hal_iram.c", "/home/jonathan/esp/esp-idf/components/esp_hal_uart/esp32s3/uart_periph.c", "/home/jonathan/esp/esp-idf/components/esp_hal_uart/uhci_hal.c" ],
-            "include_dirs": [ "include", "esp32s3/include" ]
+            "sources": [ "/home/jonathan/esp/esp-idf/components/esp_hal_uart/uart_hal.c", "/home/jonathan/esp/esp-idf/components/esp_hal_uart/uart_hal_iram.c", "/home/jonathan/esp/esp-idf/components/esp_hal_uart/esp32/uart_periph.c" ],
+            "include_dirs": [ "include", "esp32/include" ]
         },
         "esp_hal_usb": {
             "alias": "idf::esp_hal_usb",
             "target": "___idf_esp_hal_usb",
             "prefix": "idf",
             "dir": "/home/jonathan/esp/esp-idf/components/esp_hal_usb",
-            "type": "LIBRARY",
+            "type": "CONFIG_ONLY",
             "lib": "__idf_esp_hal_usb",
             "reqs": [ "soc", "hal" ],
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/jonathan/esp/payload/build/esp-idf/esp_hal_usb/libesp_hal_usb.a",
-            "sources": [ "/home/jonathan/esp/esp-idf/components/esp_hal_usb/usb_dwc_hal.c", "/home/jonathan/esp/esp-idf/components/esp_hal_usb/esp32s3/usb_dwc_periph.c", "/home/jonathan/esp/esp-idf/components/esp_hal_usb/usb_wrap_hal.c", "/home/jonathan/esp/esp-idf/components/esp_hal_usb/usb_serial_jtag_hal.c" ],
-            "include_dirs": [ "include", "esp32s3/include" ]
+            "file": "",
+            "sources": [],
+            "include_dirs": [ "include" ]
         },
         "esp_hal_wdt": {
             "alias": "idf::esp_hal_wdt",
@@ -1330,8 +1330,8 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "/home/jonathan/esp/payload/build/esp-idf/esp_hal_wdt/libesp_hal_wdt.a",
-            "sources": [ "/home/jonathan/esp/esp-idf/components/esp_hal_wdt/esp32s3/mwdt_periph.c", "/home/jonathan/esp/esp-idf/components/esp_hal_wdt/rom_patch.c", "/home/jonathan/esp/esp-idf/components/esp_hal_wdt/xt_wdt_hal.c" ],
-            "include_dirs": [ "include", "esp32s3/include" ]
+            "sources": [ "/home/jonathan/esp/esp-idf/components/esp_hal_wdt/esp32/mwdt_periph.c", "/home/jonathan/esp/esp-idf/components/esp_hal_wdt/wdt_hal_iram.c" ],
+            "include_dirs": [ "include", "esp32/include" ]
         },
         "esp_hid": {
             "alias": "idf::esp_hid",
@@ -1420,8 +1420,8 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "/home/jonathan/esp/payload/build/esp-idf/esp_hw_support/libesp_hw_support.a",
-            "sources": [ "/home/jonathan/esp/esp-idf/components/esp_hw_support/cpu.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/port/esp32s3/esp_cpu_intr.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/esp_memory_utils.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/port/esp32s3/cpu_region_protect.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/esp_clk.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/clk_ctrl_os.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/hw_random.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/intr_alloc.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/mac_addr.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/periph_ctrl.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/revision.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/rtc_module.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/regi2c_ctrl.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/esp_gpio_reserve.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/sar_tsens_ctrl.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/sar_periph_ctrl_common.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/port/esp32s3/io_mux.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/port/esp32s3/esp_clk_tree.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/spi_bus_lock.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/heap_align_hw.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/clk_utils.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/usb_phy/usb_phy.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/port/esp_clk_tree_common.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/spi_share_hw_ctrl.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/adc_share_hw_ctrl.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/sleep_modem.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/sleep_modes.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/sleep_uart.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/sleep_console.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/sleep_mspi.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/sleep_usb.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/sleep_gpio.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/sleep_event.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/port/esp32s3/systimer.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/mspi/mspi_timing_tuning/mspi_timing_tuning.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/mspi/mspi_intr/mspi_intr.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/sleep_wake_stub.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/esp_clock_output.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/power_supply/brownout.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/port/esp32s3/rtc_clk.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/port/esp32s3/rtc_clk_init.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/port/esp32s3/rtc_init.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/port/esp32s3/rtc_sleep.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/port/esp32s3/rtc_time.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/port/esp32s3/chip_info.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/port/esp32s3/sar_periph_ctrl.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/port/esp32s3/esp_memprot.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/port/esp_memprot_conv.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/mspi/mspi_timing_tuning/port/esp32s3/mspi_timing_config.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/mspi/mspi_timing_tuning/port/esp32s3/mspi_timing_by_mspi_delay.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/lowpower/port/esp32s3/sleep_cpu.c" ],
-            "include_dirs": [ "include", "include/soc", "ldo/include", "debug_probe/include", "etm/include", "mspi/mspi_timing_tuning/include", "mspi/mspi_timing_tuning/tuning_scheme_impl/include", "mspi/mspi_intr/include", "power_supply/include", "modem/include", "include/soc/esp32s3" ]
+            "sources": [ "/home/jonathan/esp/esp-idf/components/esp_hw_support/cpu.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/port/esp32/esp_cpu_intr.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/esp_memory_utils.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/port/esp32/cpu_region_protect.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/esp_clk.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/clk_ctrl_os.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/hw_random.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/intr_alloc.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/mac_addr.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/periph_ctrl.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/revision.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/rtc_module.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/regi2c_ctrl.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/esp_gpio_reserve.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/sar_tsens_ctrl.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/sar_periph_ctrl_common.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/port/esp32/io_mux.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/port/esp32/esp_clk_tree.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/spi_bus_lock.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/heap_align_hw.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/clk_utils.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/port/esp_clk_tree_common.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/spi_share_hw_ctrl.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/adc_share_hw_ctrl.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/sleep_modem.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/sleep_modes.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/sleep_uart.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/sleep_console.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/sleep_mspi.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/sleep_usb.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/sleep_gpio.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/sleep_event.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/rtc_wdt.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/mspi/mspi_timing_tuning/mspi_timing_tuning.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/mspi/mspi_intr/mspi_intr.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/sleep_wake_stub.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/esp_clock_output.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/power_supply/brownout.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/port/esp32/rtc_clk.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/port/esp32/rtc_clk_init.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/port/esp32/rtc_init.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/port/esp32/rtc_sleep.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/port/esp32/rtc_time.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/port/esp32/chip_info.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/port/esp32/cache_sram_mmu.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/port/esp32/sar_periph_ctrl.c", "/home/jonathan/esp/esp-idf/components/esp_hw_support/lowpower" ],
+            "include_dirs": [ "include", "include/soc", "ldo/include", "debug_probe/include", "etm/include", "mspi/mspi_timing_tuning/include", "mspi/mspi_timing_tuning/tuning_scheme_impl/include", "mspi/mspi_intr/include", "power_supply/include", "modem/include" ]
         },
         "esp_lcd": {
             "alias": "idf::esp_lcd",
@@ -1435,8 +1435,8 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "/home/jonathan/esp/payload/build/esp-idf/esp_lcd/libesp_lcd.a",
-            "sources": [ "/home/jonathan/esp/esp-idf/components/esp_lcd/src/esp_lcd_common.c", "/home/jonathan/esp/esp-idf/components/esp_lcd/src/esp_lcd_panel_io.c", "/home/jonathan/esp/esp-idf/components/esp_lcd/src/esp_lcd_panel_ssd1306.c", "/home/jonathan/esp/esp-idf/components/esp_lcd/src/esp_lcd_panel_st7789.c", "/home/jonathan/esp/esp-idf/components/esp_lcd/src/esp_lcd_panel_ops.c", "/home/jonathan/esp/esp-idf/components/esp_lcd/i2c/esp_lcd_panel_io_i2c.c", "/home/jonathan/esp/esp-idf/components/esp_lcd/spi/esp_lcd_panel_io_spi.c", "/home/jonathan/esp/esp-idf/components/esp_lcd/i80/esp_lcd_panel_io_i80.c", "/home/jonathan/esp/esp-idf/components/esp_lcd/rgb/esp_lcd_panel_rgb.c" ],
-            "include_dirs": [ "include", "interface", "rgb/include" ]
+            "sources": [ "/home/jonathan/esp/esp-idf/components/esp_lcd/src/esp_lcd_common.c", "/home/jonathan/esp/esp-idf/components/esp_lcd/src/esp_lcd_panel_io.c", "/home/jonathan/esp/esp-idf/components/esp_lcd/src/esp_lcd_panel_ssd1306.c", "/home/jonathan/esp/esp-idf/components/esp_lcd/src/esp_lcd_panel_st7789.c", "/home/jonathan/esp/esp-idf/components/esp_lcd/src/esp_lcd_panel_ops.c", "/home/jonathan/esp/esp-idf/components/esp_lcd/i2c/esp_lcd_panel_io_i2c.c", "/home/jonathan/esp/esp-idf/components/esp_lcd/spi/esp_lcd_panel_io_spi.c", "/home/jonathan/esp/esp-idf/components/esp_lcd/i80/esp_lcd_panel_io_i2s.c" ],
+            "include_dirs": [ "include", "interface" ]
         },
         "esp_libc": {
             "alias": "idf::esp_libc",
@@ -1480,7 +1480,7 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "/home/jonathan/esp/payload/build/esp-idf/esp_mm/libesp_mm.a",
-            "sources": [ "/home/jonathan/esp/esp-idf/components/esp_mm/esp_mmu_map.c", "/home/jonathan/esp/esp-idf/components/esp_mm/port/esp32s3/ext_mem_layout.c", "/home/jonathan/esp/esp-idf/components/esp_mm/esp_cache_msync.c", "/home/jonathan/esp/esp-idf/components/esp_mm/esp_cache_utils.c" ],
+            "sources": [ "/home/jonathan/esp/esp-idf/components/esp_mm/esp_mmu_map.c", "/home/jonathan/esp/esp-idf/components/esp_mm/port/esp32/ext_mem_layout.c", "/home/jonathan/esp/esp-idf/components/esp_mm/esp_cache_msync.c", "/home/jonathan/esp/esp-idf/components/esp_mm/esp_cache_utils.c", "/home/jonathan/esp/esp-idf/components/esp_mm/cache_esp32.c" ],
             "include_dirs": [ "include" ]
         },
         "esp_netif": {
@@ -1540,8 +1540,8 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "/home/jonathan/esp/payload/build/esp-idf/esp_phy/libesp_phy.a",
-            "sources": [ "/home/jonathan/esp/esp-idf/components/esp_phy/src/phy_override.c", "/home/jonathan/esp/esp-idf/components/esp_phy/src/lib_printf.c", "/home/jonathan/esp/esp-idf/components/esp_phy/src/phy_common.c", "/home/jonathan/esp/esp-idf/components/esp_phy/src/phy_init.c", "/home/jonathan/esp/esp-idf/components/esp_phy/esp32s3/phy_init_data.c", "/home/jonathan/esp/esp-idf/components/esp_phy/src/btbb_init.c" ],
-            "include_dirs": [ "include", "esp32s3/include" ]
+            "sources": [ "/home/jonathan/esp/esp-idf/components/esp_phy/src/phy_override.c", "/home/jonathan/esp/esp-idf/components/esp_phy/src/lib_printf.c", "/home/jonathan/esp/esp-idf/components/esp_phy/src/phy_common.c", "/home/jonathan/esp/esp-idf/components/esp_phy/src/phy_init.c", "/home/jonathan/esp/esp-idf/components/esp_phy/esp32/phy_init_data.c", "/home/jonathan/esp/esp-idf/components/esp_phy/src/btbb_init.c" ],
+            "include_dirs": [ "include", "esp32/include" ]
         },
         "esp_pm": {
             "alias": "idf::esp_pm",
@@ -1566,12 +1566,12 @@
             "type": "LIBRARY",
             "lib": "__idf_esp_psram",
             "reqs": [],
-            "priv_reqs": [ "heap", "spi_flash", "esp_mm", "esp_hal_mspi", "esp_hal_gpio" ],
+            "priv_reqs": [ "heap", "spi_flash", "esp_mm", "esp_hal_mspi", "esp_hal_gpio", "bootloader_support", "esp_driver_gpio" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "/home/jonathan/esp/payload/build/esp-idf/esp_psram/libesp_psram.a",
             "sources": [ "/home/jonathan/esp/esp-idf/components/esp_psram/system_layer/esp_psram_mspi.c" ],
-            "include_dirs": [ "include", "device/include", "xip_impl/include" ]
+            "include_dirs": [ "include", "device/include" ]
         },
         "esp_ringbuf": {
             "alias": "idf::esp_ringbuf",
@@ -1600,8 +1600,8 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "/home/jonathan/esp/payload/build/esp-idf/esp_rom/libesp_rom.a",
-            "sources": [ "/home/jonathan/esp/esp-idf/components/esp_rom/patches/esp_rom_sys.c", "/home/jonathan/esp/esp-idf/components/esp_rom/patches/esp_rom_print.c", "/home/jonathan/esp/esp-idf/components/esp_rom/patches/esp_rom_crc.c", "/home/jonathan/esp/esp-idf/components/esp_rom/patches/esp_rom_serial_output.c", "/home/jonathan/esp/esp-idf/components/esp_rom/patches/esp_rom_spiflash.c", "/home/jonathan/esp/esp-idf/components/esp_rom/patches/esp_rom_efuse.c", "/home/jonathan/esp/esp-idf/components/esp_rom/patches/esp_rom_gpio.c", "/home/jonathan/esp/esp-idf/components/esp_rom/patches/esp_rom_longjmp.S", "/home/jonathan/esp/esp-idf/components/esp_rom/patches/esp_rom_cache_esp32s2_esp32s3.c", "/home/jonathan/esp/esp-idf/components/esp_rom/patches/esp_rom_cache_writeback_esp32s3.S" ],
-            "include_dirs": [ "include", "esp32s3/include", "esp32s3/include/esp32s3", "esp32s3" ]
+            "sources": [ "/home/jonathan/esp/esp-idf/components/esp_rom/patches/esp_rom_sys.c", "/home/jonathan/esp/esp-idf/components/esp_rom/patches/esp_rom_print.c", "/home/jonathan/esp/esp-idf/components/esp_rom/patches/esp_rom_crc.c", "/home/jonathan/esp/esp-idf/components/esp_rom/patches/esp_rom_serial_output.c", "/home/jonathan/esp/esp-idf/components/esp_rom/patches/esp_rom_spiflash.c", "/home/jonathan/esp/esp-idf/components/esp_rom/patches/esp_rom_efuse.c", "/home/jonathan/esp/esp-idf/components/esp_rom/patches/esp_rom_gpio.c", "/home/jonathan/esp/esp-idf/components/esp_rom/patches/esp_rom_longjmp.S" ],
+            "include_dirs": [ "include", "esp32/include", "esp32/include/esp32", "esp32" ]
         },
         "esp_security": {
             "alias": "idf::esp_security",
@@ -1615,7 +1615,7 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "/home/jonathan/esp/payload/build/esp-idf/esp_security/libesp_security.a",
-            "sources": [ "/home/jonathan/esp/esp-idf/components/esp_security/src/init.c", "/home/jonathan/esp/esp-idf/components/esp_security/src/esp_hmac.c", "/home/jonathan/esp/esp-idf/components/esp_security/src/esp_ds.c", "/home/jonathan/esp/esp-idf/components/esp_security/src/esp_crypto_lock.c", "/home/jonathan/esp/esp-idf/components/esp_security/src/esp_crypto_periph_clk.c" ],
+            "sources": [ "/home/jonathan/esp/esp-idf/components/esp_security/src/init.c", "/home/jonathan/esp/esp-idf/components/esp_security/src/esp_crypto_lock.c", "/home/jonathan/esp/esp-idf/components/esp_security/src/esp_crypto_periph_clk.c" ],
             "include_dirs": [ "include" ]
         },
         "esp_stdio": {
@@ -1645,7 +1645,7 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "/home/jonathan/esp/payload/build/esp-idf/esp_system/libesp_system.a",
-            "sources": [ "/home/jonathan/esp/esp-idf/components/esp_system/esp_err.c", "/home/jonathan/esp/esp-idf/components/esp_system/crosscore_int.c", "/home/jonathan/esp/esp-idf/components/esp_system/esp_ipc.c", "/home/jonathan/esp/esp-idf/components/esp_system/freertos_hooks.c", "/home/jonathan/esp/esp-idf/components/esp_system/panic.c", "/home/jonathan/esp/esp-idf/components/esp_system/esp_system.c", "/home/jonathan/esp/esp-idf/components/esp_system/startup.c", "/home/jonathan/esp/esp-idf/components/esp_system/startup_funcs.c", "/home/jonathan/esp/esp-idf/components/esp_system/system_time.c", "/home/jonathan/esp/esp-idf/components/esp_system/stack_check.c", "/home/jonathan/esp/esp-idf/components/esp_system/ubsan.c", "/home/jonathan/esp/esp-idf/components/esp_system/int_wdt.c", "/home/jonathan/esp/esp-idf/components/esp_system/xt_wdt.c", "/home/jonathan/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c", "/home/jonathan/esp/esp-idf/components/esp_system/task_wdt/task_wdt_impl_timergroup.c", "/home/jonathan/esp/esp-idf/components/esp_system/port/cpu_start.c", "/home/jonathan/esp/esp-idf/components/esp_system/port/panic_handler.c", "/home/jonathan/esp/esp-idf/components/esp_system/port/esp_system_chip.c", "/home/jonathan/esp/esp-idf/components/esp_system/port/image_process.c", "/home/jonathan/esp/esp-idf/components/esp_system/port/esp_ipc_isr.c", "/home/jonathan/esp/esp-idf/components/esp_system/port/arch/xtensa/esp_ipc_isr_port.c", "/home/jonathan/esp/esp-idf/components/esp_system/port/arch/xtensa/esp_ipc_isr_handler.S", "/home/jonathan/esp/esp-idf/components/esp_system/port/arch/xtensa/esp_ipc_isr_routines.S", "/home/jonathan/esp/esp-idf/components/esp_system/port/arch/xtensa/panic_arch.c", "/home/jonathan/esp/esp-idf/components/esp_system/port/arch/xtensa/panic_handler_asm.S", "/home/jonathan/esp/esp-idf/components/esp_system/port/arch/xtensa/expression_with_stack.c", "/home/jonathan/esp/esp-idf/components/esp_system/port/arch/xtensa/expression_with_stack_asm.S", "/home/jonathan/esp/esp-idf/components/esp_system/port/arch/xtensa/debug_helpers.c", "/home/jonathan/esp/esp-idf/components/esp_system/port/arch/xtensa/debug_helpers_asm.S", "/home/jonathan/esp/esp-idf/components/esp_system/port/arch/xtensa/debug_stubs.c", "/home/jonathan/esp/esp-idf/components/esp_system/port/arch/xtensa/trax.c", "/home/jonathan/esp/esp-idf/components/esp_system/port/soc/esp32s3/highint_hdl.S", "/home/jonathan/esp/esp-idf/components/esp_system/port/soc/esp32s3/clk.c", "/home/jonathan/esp/esp-idf/components/esp_system/port/soc/esp32s3/reset_reason.c", "/home/jonathan/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c", "/home/jonathan/esp/esp-idf/components/esp_system/port/soc/esp32s3/cache_err_int.c", "/home/jonathan/esp/esp-idf/components/esp_system/port/soc/esp32s3/apb_backup_dma.c" ],
+            "sources": [ "/home/jonathan/esp/esp-idf/components/esp_system/esp_err.c", "/home/jonathan/esp/esp-idf/components/esp_system/crosscore_int.c", "/home/jonathan/esp/esp-idf/components/esp_system/esp_ipc.c", "/home/jonathan/esp/esp-idf/components/esp_system/freertos_hooks.c", "/home/jonathan/esp/esp-idf/components/esp_system/panic.c", "/home/jonathan/esp/esp-idf/components/esp_system/esp_system.c", "/home/jonathan/esp/esp-idf/components/esp_system/startup.c", "/home/jonathan/esp/esp-idf/components/esp_system/startup_funcs.c", "/home/jonathan/esp/esp-idf/components/esp_system/system_time.c", "/home/jonathan/esp/esp-idf/components/esp_system/stack_check.c", "/home/jonathan/esp/esp-idf/components/esp_system/ubsan.c", "/home/jonathan/esp/esp-idf/components/esp_system/int_wdt.c", "/home/jonathan/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c", "/home/jonathan/esp/esp-idf/components/esp_system/task_wdt/task_wdt_impl_timergroup.c", "/home/jonathan/esp/esp-idf/components/esp_system/port/cpu_start.c", "/home/jonathan/esp/esp-idf/components/esp_system/port/panic_handler.c", "/home/jonathan/esp/esp-idf/components/esp_system/port/esp_system_chip.c", "/home/jonathan/esp/esp-idf/components/esp_system/port/image_process.c", "/home/jonathan/esp/esp-idf/components/esp_system/port/esp_ipc_isr.c", "/home/jonathan/esp/esp-idf/components/esp_system/port/arch/xtensa/esp_ipc_isr_port.c", "/home/jonathan/esp/esp-idf/components/esp_system/port/arch/xtensa/esp_ipc_isr_handler.S", "/home/jonathan/esp/esp-idf/components/esp_system/port/arch/xtensa/esp_ipc_isr_routines.S", "/home/jonathan/esp/esp-idf/components/esp_system/port/arch/xtensa/panic_arch.c", "/home/jonathan/esp/esp-idf/components/esp_system/port/arch/xtensa/panic_handler_asm.S", "/home/jonathan/esp/esp-idf/components/esp_system/port/arch/xtensa/expression_with_stack.c", "/home/jonathan/esp/esp-idf/components/esp_system/port/arch/xtensa/expression_with_stack_asm.S", "/home/jonathan/esp/esp-idf/components/esp_system/port/arch/xtensa/debug_helpers.c", "/home/jonathan/esp/esp-idf/components/esp_system/port/arch/xtensa/debug_helpers_asm.S", "/home/jonathan/esp/esp-idf/components/esp_system/port/arch/xtensa/debug_stubs.c", "/home/jonathan/esp/esp-idf/components/esp_system/port/arch/xtensa/trax.c", "/home/jonathan/esp/esp-idf/components/esp_system/port/soc/esp32/highint_hdl.S", "/home/jonathan/esp/esp-idf/components/esp_system/port/soc/esp32/clk.c", "/home/jonathan/esp/esp-idf/components/esp_system/port/soc/esp32/reset_reason.c", "/home/jonathan/esp/esp-idf/components/esp_system/port/soc/esp32/system_internal.c", "/home/jonathan/esp/esp-idf/components/esp_system/port/soc/esp32/cache_err_int.c" ],
             "include_dirs": [ "include" ]
         },
         "esp_timer": {
@@ -1660,7 +1660,7 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "/home/jonathan/esp/payload/build/esp-idf/esp_timer/libesp_timer.a",
-            "sources": [ "/home/jonathan/esp/esp-idf/components/esp_timer/src/esp_timer.c", "/home/jonathan/esp/esp-idf/components/esp_timer/src/esp_timer_init.c", "/home/jonathan/esp/esp-idf/components/esp_timer/src/ets_timer_legacy.c", "/home/jonathan/esp/esp-idf/components/esp_timer/src/system_time.c", "/home/jonathan/esp/esp-idf/components/esp_timer/src/esp_timer_impl_common.c", "/home/jonathan/esp/esp-idf/components/esp_timer/src/esp_timer_impl_systimer.c" ],
+            "sources": [ "/home/jonathan/esp/esp-idf/components/esp_timer/src/esp_timer.c", "/home/jonathan/esp/esp-idf/components/esp_timer/src/esp_timer_init.c", "/home/jonathan/esp/esp-idf/components/esp_timer/src/ets_timer_legacy.c", "/home/jonathan/esp/esp-idf/components/esp_timer/src/system_time.c", "/home/jonathan/esp/esp-idf/components/esp_timer/src/esp_timer_impl_common.c", "/home/jonathan/esp/esp-idf/components/esp_timer/src/esp_timer_impl_lac.c" ],
             "include_dirs": [ "include" ]
         },
         "esp_trace": {
@@ -1705,7 +1705,7 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "/home/jonathan/esp/payload/build/esp-idf/esp_wifi/libesp_wifi.a",
-            "sources": [ "/home/jonathan/esp/esp-idf/components/esp_wifi/src/lib_printf.c", "/home/jonathan/esp/esp-idf/components/esp_wifi/src/mesh_event.c", "/home/jonathan/esp/esp-idf/components/esp_wifi/src/smartconfig.c", "/home/jonathan/esp/esp-idf/components/esp_wifi/src/wifi_init.c", "/home/jonathan/esp/esp-idf/components/esp_wifi/src/wifi_default.c", "/home/jonathan/esp/esp-idf/components/esp_wifi/src/wifi_netif.c", "/home/jonathan/esp/esp-idf/components/esp_wifi/src/wifi_default_ap.c", "/home/jonathan/esp/esp-idf/components/esp_wifi/esp32s3/esp_adapter.c", "/home/jonathan/esp/esp-idf/components/esp_wifi/regulatory/esp_wifi_regulatory.c", "/home/jonathan/esp/esp-idf/components/esp_wifi/src/smartconfig_ack.c", "/home/jonathan/esp/esp-idf/components/esp_wifi/remote/esp_wifi_remote_weak.c", "/home/jonathan/esp/esp-idf/components/esp_wifi/remote/esp_eap_client_remote_weak.c", "/home/jonathan/esp/esp-idf/components/esp_wifi/remote/esp_wifi_remote_net2.c" ],
+            "sources": [ "/home/jonathan/esp/esp-idf/components/esp_wifi/src/lib_printf.c", "/home/jonathan/esp/esp-idf/components/esp_wifi/src/mesh_event.c", "/home/jonathan/esp/esp-idf/components/esp_wifi/src/smartconfig.c", "/home/jonathan/esp/esp-idf/components/esp_wifi/src/wifi_init.c", "/home/jonathan/esp/esp-idf/components/esp_wifi/src/wifi_default.c", "/home/jonathan/esp/esp-idf/components/esp_wifi/src/wifi_netif.c", "/home/jonathan/esp/esp-idf/components/esp_wifi/src/wifi_default_ap.c", "/home/jonathan/esp/esp-idf/components/esp_wifi/esp32/esp_adapter.c", "/home/jonathan/esp/esp-idf/components/esp_wifi/regulatory/esp_wifi_regulatory.c", "/home/jonathan/esp/esp-idf/components/esp_wifi/src/smartconfig_ack.c", "/home/jonathan/esp/esp-idf/components/esp_wifi/remote/esp_wifi_remote_weak.c", "/home/jonathan/esp/esp-idf/components/esp_wifi/remote/esp_eap_client_remote_weak.c", "/home/jonathan/esp/esp-idf/components/esp_wifi/remote/esp_wifi_remote_net2.c" ],
             "include_dirs": [ "include", "include/local", "wifi_apps/include", "wifi_apps/nan_app/include" ]
         },
         "espcoredump": {
@@ -1780,8 +1780,8 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "/home/jonathan/esp/payload/build/esp-idf/hal/libhal.a",
-            "sources": [ "/home/jonathan/esp/esp-idf/components/hal/hal_utils.c", "/home/jonathan/esp/esp-idf/components/hal/efuse_hal.c", "/home/jonathan/esp/esp-idf/components/hal/esp32s3/efuse_hal.c", "/home/jonathan/esp/esp-idf/components/hal/mmu_hal.c", "/home/jonathan/esp/esp-idf/components/hal/cache_hal.c", "/home/jonathan/esp/esp-idf/components/hal/color_hal.c" ],
-            "include_dirs": [ "platform_port/include", "esp32s3/include", "include" ]
+            "sources": [ "/home/jonathan/esp/esp-idf/components/hal/hal_utils.c", "/home/jonathan/esp/esp-idf/components/hal/efuse_hal.c", "/home/jonathan/esp/esp-idf/components/hal/esp32/efuse_hal.c", "/home/jonathan/esp/esp-idf/components/hal/mmu_hal.c", "/home/jonathan/esp/esp-idf/components/hal/esp32/cache_hal_esp32.c", "/home/jonathan/esp/esp-idf/components/hal/color_hal.c" ],
+            "include_dirs": [ "platform_port/include", "esp32/include", "include" ]
         },
         "heap": {
             "alias": "idf::heap",
@@ -1795,7 +1795,7 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "/home/jonathan/esp/payload/build/esp-idf/heap/libheap.a",
-            "sources": [ "/home/jonathan/esp/esp-idf/components/heap/heap_caps_base.c", "/home/jonathan/esp/esp-idf/components/heap/heap_caps.c", "/home/jonathan/esp/esp-idf/components/heap/heap_caps_init.c", "/home/jonathan/esp/esp-idf/components/heap/multi_heap.c", "/home/jonathan/esp/esp-idf/components/heap/tlsf/tlsf.c", "/home/jonathan/esp/esp-idf/components/heap/port/memory_layout_utils.c", "/home/jonathan/esp/esp-idf/components/heap/port/esp32s3/memory_layout.c" ],
+            "sources": [ "/home/jonathan/esp/esp-idf/components/heap/heap_caps_base.c", "/home/jonathan/esp/esp-idf/components/heap/heap_caps.c", "/home/jonathan/esp/esp-idf/components/heap/heap_caps_init.c", "/home/jonathan/esp/esp-idf/components/heap/multi_heap.c", "/home/jonathan/esp/esp-idf/components/heap/tlsf/tlsf.c", "/home/jonathan/esp/esp-idf/components/heap/port/memory_layout_utils.c", "/home/jonathan/esp/esp-idf/components/heap/port/esp32/memory_layout.c" ],
             "include_dirs": [ "include", "tlsf" ]
         },
         "http_parser": {
@@ -1865,7 +1865,7 @@
             "dir": "/home/jonathan/esp/payload/main",
             "type": "LIBRARY",
             "lib": "__idf_main",
-            "reqs": [ "log", "fatfs", "esp_adc", "esp_driver_i2c", "esp_driver_mcpwm", "esp_driver_uart", "esp_driver_ledc" ],
+            "reqs": [ "driver", "log", "fatfs", "esp_adc", "esp_driver_gpio", "esp_driver_spi", "esp_driver_mcpwm", "esp_driver_uart", "esp_driver_ledc", "esp_timer" ],
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
@@ -2050,8 +2050,8 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "/home/jonathan/esp/payload/build/esp-idf/soc/libsoc.a",
-            "sources": [ "/home/jonathan/esp/esp-idf/components/soc/lldesc.c", "/home/jonathan/esp/esp-idf/components/soc/dport_access_common.c", "/home/jonathan/esp/esp-idf/components/soc/esp32s3/interrupts.c", "/home/jonathan/esp/esp-idf/components/soc/esp32s3/gpio_periph.c", "/home/jonathan/esp/esp-idf/components/soc/esp32s3/mpi_periph.c", "/home/jonathan/esp/esp-idf/components/soc/esp32s3/power_supply_periph.c" ],
-            "include_dirs": [ "include", "esp32s3", "esp32s3/include", "esp32s3/register" ]
+            "sources": [ "/home/jonathan/esp/esp-idf/components/soc/lldesc.c", "/home/jonathan/esp/esp-idf/components/soc/dport_access_common.c", "/home/jonathan/esp/esp-idf/components/soc/esp32/interrupts.c", "/home/jonathan/esp/esp-idf/components/soc/esp32/gpio_periph.c", "/home/jonathan/esp/esp-idf/components/soc/esp32/dport_access.c", "/home/jonathan/esp/esp-idf/components/soc/esp32/mpi_periph.c", "/home/jonathan/esp/esp-idf/components/soc/esp32/power_supply_periph.c" ],
+            "include_dirs": [ "include", "esp32", "esp32/include", "esp32/register" ]
         },
         "spi_flash": {
             "alias": "idf::spi_flash",
@@ -2065,7 +2065,7 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "/home/jonathan/esp/payload/build/esp-idf/spi_flash/libspi_flash.a",
-            "sources": [ "/home/jonathan/esp/esp-idf/components/spi_flash/flash_brownout_hook.c", "/home/jonathan/esp/esp-idf/components/spi_flash/esp32s3/spi_flash_oct_flash_init.c", "/home/jonathan/esp/esp-idf/components/spi_flash/spi_flash_hpm_enable.c", "/home/jonathan/esp/esp-idf/components/spi_flash/spi_flash_chip_drivers.c", "/home/jonathan/esp/esp-idf/components/spi_flash/spi_flash_chip_generic.c", "/home/jonathan/esp/esp-idf/components/spi_flash/spi_flash_chip_issi.c", "/home/jonathan/esp/esp-idf/components/spi_flash/spi_flash_chip_mxic.c", "/home/jonathan/esp/esp-idf/components/spi_flash/spi_flash_chip_gd.c", "/home/jonathan/esp/esp-idf/components/spi_flash/spi_flash_chip_winbond.c", "/home/jonathan/esp/esp-idf/components/spi_flash/spi_flash_chip_boya.c", "/home/jonathan/esp/esp-idf/components/spi_flash/spi_flash_chip_mxic_opi.c", "/home/jonathan/esp/esp-idf/components/spi_flash/spi_flash_chip_th.c", "/home/jonathan/esp/esp-idf/components/spi_flash/memspi_host_driver.c", "/home/jonathan/esp/esp-idf/components/spi_flash/spi_flash_blockdev.c", "/home/jonathan/esp/esp-idf/components/spi_flash/cache_utils.c", "/home/jonathan/esp/esp-idf/components/spi_flash/flash_mmap.c", "/home/jonathan/esp/esp-idf/components/spi_flash/flash_ops.c", "/home/jonathan/esp/esp-idf/components/spi_flash/spi_flash_wrap.c", "/home/jonathan/esp/esp-idf/components/spi_flash/esp_flash_api.c", "/home/jonathan/esp/esp-idf/components/spi_flash/esp_flash_spi_init.c", "/home/jonathan/esp/esp-idf/components/spi_flash/spi_flash_os_func_app.c", "/home/jonathan/esp/esp-idf/components/spi_flash/spi_flash_os_func_noos.c" ],
+            "sources": [ "/home/jonathan/esp/esp-idf/components/spi_flash/flash_brownout_hook.c", "/home/jonathan/esp/esp-idf/components/spi_flash/spi_flash_chip_drivers.c", "/home/jonathan/esp/esp-idf/components/spi_flash/spi_flash_chip_generic.c", "/home/jonathan/esp/esp-idf/components/spi_flash/spi_flash_chip_issi.c", "/home/jonathan/esp/esp-idf/components/spi_flash/spi_flash_chip_mxic.c", "/home/jonathan/esp/esp-idf/components/spi_flash/spi_flash_chip_gd.c", "/home/jonathan/esp/esp-idf/components/spi_flash/spi_flash_chip_winbond.c", "/home/jonathan/esp/esp-idf/components/spi_flash/spi_flash_chip_boya.c", "/home/jonathan/esp/esp-idf/components/spi_flash/spi_flash_chip_mxic_opi.c", "/home/jonathan/esp/esp-idf/components/spi_flash/spi_flash_chip_th.c", "/home/jonathan/esp/esp-idf/components/spi_flash/memspi_host_driver.c", "/home/jonathan/esp/esp-idf/components/spi_flash/spi_flash_blockdev.c", "/home/jonathan/esp/esp-idf/components/spi_flash/cache_utils.c", "/home/jonathan/esp/esp-idf/components/spi_flash/flash_mmap.c", "/home/jonathan/esp/esp-idf/components/spi_flash/flash_ops.c", "/home/jonathan/esp/esp-idf/components/spi_flash/spi_flash_wrap.c", "/home/jonathan/esp/esp-idf/components/spi_flash/esp_flash_api.c", "/home/jonathan/esp/esp-idf/components/spi_flash/esp_flash_spi_init.c", "/home/jonathan/esp/esp-idf/components/spi_flash/spi_flash_os_func_app.c", "/home/jonathan/esp/esp-idf/components/spi_flash/spi_flash_os_func_noos.c" ],
             "include_dirs": [ "include" ]
         },
         "spiffs": {
@@ -2170,7 +2170,7 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "/home/jonathan/esp/payload/build/esp-idf/wpa_supplicant/libwpa_supplicant.a",
-            "sources": [ "/home/jonathan/esp/esp-idf/components/wpa_supplicant/port/os_xtensa.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/port/eloop.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/ap/ap_config.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/ap/ieee802_1x.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/ap/wpa_auth.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/ap/wpa_auth_ie.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/ap/pmksa_cache_auth.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/ap/sta_info.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/ap/ieee802_11.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/ap/comeback_token.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/common/sae.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/common/dragonfly.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/common/wpa_common.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/utils/bitfield.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/crypto/aes-siv.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/crypto/sha256-kdf.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/crypto/ccmp.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/crypto/aes-gcm.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/crypto/crypto_ops.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/crypto/dh_group5.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/crypto/dh_groups.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/crypto/ms_funcs.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/crypto/sha1-tlsprf.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/crypto/sha256-tlsprf.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/crypto/sha384-tlsprf.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/crypto/sha256-prf.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/crypto/sha1-prf.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/crypto/sha384-prf.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/crypto/md4-internal.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/crypto/sha1-tprf.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/eap_common/eap_wsc_common.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/common/ieee802_11_common.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/eap_peer/chap.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/eap_peer/eap.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/eap_peer/eap_common.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/eap_peer/eap_mschapv2.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/eap_peer/eap_peap.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/eap_peer/eap_peap_common.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/eap_peer/eap_tls.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/eap_peer/eap_tls_common.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/eap_peer/eap_ttls.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/eap_peer/mschapv2.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/eap_peer/eap_fast.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/eap_peer/eap_fast_common.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/eap_peer/eap_fast_pac.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/rsn_supp/pmksa_cache.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/rsn_supp/wpa.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/rsn_supp/wpa_ie.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/utils/base64.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/utils/common.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/utils/ext_password.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/utils/uuid.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/utils/wpabuf.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/utils/wpa_debug.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/utils/json.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/wps/wps.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/wps/wps_attr_build.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/wps/wps_attr_parse.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/wps/wps_attr_process.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/wps/wps_common.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/wps/wps_dev_attr.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/wps/wps_enrollee.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/common/sae_pk.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_eap_client.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_wpa2_api_port.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_wpa_main.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_wpas_glue.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_common.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_wps.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_wpa3.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_owe.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_hostap.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/tls_mbedtls.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/crypto_mbedtls.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/crypto_mbedtls-bignum.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/crypto_mbedtls-rsa.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/crypto_mbedtls-ec.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/fastpsk.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/crypto/rc4.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/crypto/des-internal.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/fastpbkdf2.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/crypto/aes-wrap.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/crypto/aes-unwrap.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/crypto/aes-ccm.c" ],
+            "sources": [ "/home/jonathan/esp/esp-idf/components/wpa_supplicant/port/os_xtensa.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/port/eloop.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/ap/ap_config.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/ap/ieee802_1x.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/ap/wpa_auth.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/ap/wpa_auth_ie.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/ap/pmksa_cache_auth.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/ap/sta_info.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/ap/ieee802_11.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/ap/comeback_token.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/common/sae.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/common/dragonfly.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/common/wpa_common.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/utils/bitfield.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/crypto/aes-siv.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/crypto/sha256-kdf.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/crypto/ccmp.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/crypto/aes-gcm.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/crypto/crypto_ops.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/crypto/dh_group5.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/crypto/dh_groups.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/crypto/ms_funcs.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/crypto/sha1-tlsprf.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/crypto/sha256-tlsprf.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/crypto/sha384-tlsprf.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/crypto/sha256-prf.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/crypto/sha1-prf.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/crypto/sha384-prf.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/crypto/md4-internal.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/crypto/sha1-tprf.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/eap_common/eap_wsc_common.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/common/ieee802_11_common.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/eap_peer/chap.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/eap_peer/eap.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/eap_peer/eap_common.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/eap_peer/eap_mschapv2.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/eap_peer/eap_peap.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/eap_peer/eap_peap_common.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/eap_peer/eap_tls.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/eap_peer/eap_tls_common.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/eap_peer/eap_ttls.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/eap_peer/mschapv2.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/eap_peer/eap_fast.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/eap_peer/eap_fast_common.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/eap_peer/eap_fast_pac.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/rsn_supp/pmksa_cache.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/rsn_supp/wpa.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/rsn_supp/wpa_ie.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/utils/base64.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/utils/common.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/utils/ext_password.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/utils/uuid.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/utils/wpabuf.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/utils/wpa_debug.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/utils/json.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/wps/wps.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/wps/wps_attr_build.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/wps/wps_attr_parse.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/wps/wps_attr_process.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/wps/wps_common.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/wps/wps_dev_attr.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/wps/wps_enrollee.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/common/sae_pk.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_eap_client.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_wpa2_api_port.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_wpa_main.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_wpas_glue.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_common.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_wps.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_wpa3.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_owe.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_hostap.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/tls_mbedtls.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/crypto_mbedtls.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/crypto_mbedtls-bignum.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/crypto_mbedtls-rsa.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/crypto_mbedtls-ec.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/crypto/rc4.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/crypto/des-internal.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/fastpbkdf2.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/crypto/aes-wrap.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/crypto/aes-unwrap.c", "/home/jonathan/esp/esp-idf/components/wpa_supplicant/src/crypto/aes-ccm.c" ],
             "include_dirs": [ "include", "port/include", "esp_supplicant/include" ]
         },
         "xtensa": {
@@ -2186,7 +2186,7 @@
             "managed_priv_reqs": [],
             "file": "/home/jonathan/esp/payload/build/esp-idf/xtensa/libxtensa.a",
             "sources": [ "/home/jonathan/esp/esp-idf/components/xtensa/eri.c", "/home/jonathan/esp/esp-idf/components/xtensa/xt_trax.c", "/home/jonathan/esp/esp-idf/components/xtensa/xtensa_context.S", "/home/jonathan/esp/esp-idf/components/xtensa/xtensa_intr_asm.S", "/home/jonathan/esp/esp-idf/components/xtensa/xtensa_intr.c", "/home/jonathan/esp/esp-idf/components/xtensa/xtensa_vectors.S" ],
-            "include_dirs": [ "esp32s3/include", "include", "deprecated_include" ]
+            "include_dirs": [ "esp32/include", "include", "deprecated_include" ]
         }
     },
     "all_component_info" : {
@@ -2305,7 +2305,7 @@
             "priv_reqs": [ "esp_timer", "esp_mm", "esp_driver_gpio", "esp_ringbuf", "esp_pm" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "include_dirs": [ "i2c/include", "touch_sensor/include", "twai/include", "touch_sensor/esp32s3/include" ]
+            "include_dirs": [ "i2c/include", "touch_sensor/include", "twai/include", "touch_sensor/esp32/include" ]
         },
         "efuse": {
             "alias": "idf::efuse",
@@ -2318,7 +2318,7 @@
             "priv_reqs": [ "bootloader_support", "soc", "spi_flash", "esp_system", "esp_partition", "esp_app_format", "esp_hal_security" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "include_dirs": [ "include", "esp32s3/include" ]
+            "include_dirs": [ "include", "esp32/include" ]
         },
         "esp-tls": {
             "alias": "idf::esp-tls",
@@ -2341,10 +2341,10 @@
             "source": "idf_components",
             "lib": "__idf_esp_adc",
             "reqs": [ "esp_hal_ana_conv" ],
-            "priv_reqs": [ "esp_driver_gpio", "esp_driver_dma", "efuse", "esp_pm", "esp_ringbuf", "esp_mm" ],
+            "priv_reqs": [ "esp_driver_gpio", "esp_driver_dma", "efuse", "esp_pm", "esp_ringbuf", "esp_mm", "esp_driver_i2s" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "include_dirs": [ "include", "interface", "esp32s3/include" ]
+            "include_dirs": [ "include", "interface", "esp32/include" ]
         },
         "esp_app_format": {
             "alias": "idf::esp_app_format",
@@ -2474,7 +2474,7 @@
             "priv_reqs": [ "esp_driver_gpio", "esp_driver_dma" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "include_dirs": [ "include", "interface", "dvp/include" ]
+            "include_dirs": [ "include", "interface" ]
         },
         "esp_driver_cordic": {
             "alias": "idf::esp_driver_cordic",
@@ -2497,7 +2497,7 @@
             "source": "idf_components",
             "lib": "__idf_esp_driver_dac",
             "reqs": [ "esp_hal_ana_conv" ],
-            "priv_reqs": [ "esp_pm", "esp_driver_gpio", "esp_hal_clock" ],
+            "priv_reqs": [ "esp_pm", "esp_driver_gpio", "esp_hal_clock", "esp_driver_i2s" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "include_dirs": [ "./include" ]
@@ -2562,7 +2562,7 @@
             "source": "idf_components",
             "lib": "__idf_esp_driver_i2s",
             "reqs": [ "esp_hal_i2s" ],
-            "priv_reqs": [ "esp_driver_gpio", "esp_driver_dma", "esp_pm", "esp_mm", "esp_hal_clock" ],
+            "priv_reqs": [ "esp_driver_gpio", "esp_driver_dma", "esp_pm", "esp_mm", "esp_hal_clock", "esp_hal_ana_conv" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "include_dirs": [ "include" ]
@@ -2770,10 +2770,10 @@
             "source": "idf_components",
             "lib": "__idf_esp_driver_touch_sens",
             "reqs": [ "esp_hal_touch_sens" ],
-            "priv_reqs": [ "esp_driver_gpio" ],
+            "priv_reqs": [ "esp_driver_gpio", "esp_timer" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "include_dirs": [ "include", "hw_ver2/include" ]
+            "include_dirs": [ "include", "hw_ver1/include" ]
         },
         "esp_driver_tsens": {
             "alias": "idf::esp_driver_tsens",
@@ -2886,11 +2886,11 @@
             "dir": "/home/jonathan/esp/esp-idf/components/esp_hal_ana_conv",
             "source": "idf_components",
             "lib": "__idf_esp_hal_ana_conv",
-            "reqs": [ "soc", "hal", "esp_hal_dma" ],
+            "reqs": [ "soc", "hal", "esp_hal_dma", "esp_hal_i2s" ],
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "include_dirs": [ "include", "esp32s3/include" ]
+            "include_dirs": [ "include", "esp32/include" ]
         },
         "esp_hal_asrc": {
             "alias": "idf::esp_hal_asrc",
@@ -2916,7 +2916,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "include_dirs": [ "include", "esp32s3/include" ]
+            "include_dirs": [ "include" ]
         },
         "esp_hal_clock": {
             "alias": "idf::esp_hal_clock",
@@ -2929,7 +2929,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "include_dirs": [ "include", "esp32s3/include" ]
+            "include_dirs": [ "include", "esp32/include" ]
         },
         "esp_hal_cordic": {
             "alias": "idf::esp_hal_cordic",
@@ -2955,7 +2955,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "include_dirs": [ "include", "esp32s3/include" ]
+            "include_dirs": [ "include" ]
         },
         "esp_hal_emac": {
             "alias": "idf::esp_hal_emac",
@@ -2968,7 +2968,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "include_dirs": [ "include" ]
+            "include_dirs": [ "include", "esp32/include" ]
         },
         "esp_hal_gpio": {
             "alias": "idf::esp_hal_gpio",
@@ -2981,7 +2981,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "include_dirs": [ "include", "esp32s3/include" ]
+            "include_dirs": [ "include", "esp32/include" ]
         },
         "esp_hal_gpspi": {
             "alias": "idf::esp_hal_gpspi",
@@ -2994,7 +2994,7 @@
             "priv_reqs": [ "esp_hal_gpio" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "include_dirs": [ "include", "esp32s3/include" ]
+            "include_dirs": [ "include", "esp32/include" ]
         },
         "esp_hal_i2c": {
             "alias": "idf::esp_hal_i2c",
@@ -3007,7 +3007,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "include_dirs": [ "esp32s3/include", "include" ]
+            "include_dirs": [ "esp32/include", "include" ]
         },
         "esp_hal_i2s": {
             "alias": "idf::esp_hal_i2s",
@@ -3020,7 +3020,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "include_dirs": [ "include", "esp32s3/include" ]
+            "include_dirs": [ "include", "esp32/include" ]
         },
         "esp_hal_i3c": {
             "alias": "idf::esp_hal_i3c",
@@ -3072,7 +3072,7 @@
             "priv_reqs": [ "esp_hal_i2s" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "include_dirs": [ "include", "esp32s3/include" ]
+            "include_dirs": [ "include" ]
         },
         "esp_hal_ledc": {
             "alias": "idf::esp_hal_ledc",
@@ -3085,7 +3085,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "include_dirs": [ "include", "esp32s3/include" ]
+            "include_dirs": [ "include", "esp32/include" ]
         },
         "esp_hal_mcpwm": {
             "alias": "idf::esp_hal_mcpwm",
@@ -3098,7 +3098,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "include_dirs": [ "include", "esp32s3/include" ]
+            "include_dirs": [ "include", "esp32/include" ]
         },
         "esp_hal_mspi": {
             "alias": "idf::esp_hal_mspi",
@@ -3111,7 +3111,7 @@
             "priv_reqs": [ "esp_hal_gpio" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "include_dirs": [ "include", "esp32s3/include" ]
+            "include_dirs": [ "include", "esp32/include" ]
         },
         "esp_hal_parlio": {
             "alias": "idf::esp_hal_parlio",
@@ -3137,7 +3137,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "include_dirs": [ "include", "esp32s3/include" ]
+            "include_dirs": [ "include", "esp32/include" ]
         },
         "esp_hal_pmu": {
             "alias": "idf::esp_hal_pmu",
@@ -3150,7 +3150,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "include_dirs": [ "include", "esp32s3/include" ]
+            "include_dirs": [ "include", "esp32/include" ]
         },
         "esp_hal_ppa": {
             "alias": "idf::esp_hal_ppa",
@@ -3176,7 +3176,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "include_dirs": [ "include", "esp32s3/include" ]
+            "include_dirs": [ "include", "esp32/include" ]
         },
         "esp_hal_rmt": {
             "alias": "idf::esp_hal_rmt",
@@ -3189,7 +3189,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "include_dirs": [ "include", "esp32s3/include" ]
+            "include_dirs": [ "include", "esp32/include" ]
         },
         "esp_hal_rtc_timer": {
             "alias": "idf::esp_hal_rtc_timer",
@@ -3202,7 +3202,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "include_dirs": [ "include", "esp32s3/include" ]
+            "include_dirs": [ "include", "esp32/include" ]
         },
         "esp_hal_sd": {
             "alias": "idf::esp_hal_sd",
@@ -3215,7 +3215,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "include_dirs": [ "include", "esp32s3/include" ]
+            "include_dirs": [ "include", "esp32/include" ]
         },
         "esp_hal_security": {
             "alias": "idf::esp_hal_security",
@@ -3228,7 +3228,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "include_dirs": [ "esp32s3/include", "include" ]
+            "include_dirs": [ "esp32/include", "include" ]
         },
         "esp_hal_systimer": {
             "alias": "idf::esp_hal_systimer",
@@ -3241,7 +3241,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "include_dirs": [ "include", "esp32s3/include" ]
+            "include_dirs": [ "include" ]
         },
         "esp_hal_timg": {
             "alias": "idf::esp_hal_timg",
@@ -3254,7 +3254,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "include_dirs": [ "include", "esp32s3/include" ]
+            "include_dirs": [ "include", "esp32/include" ]
         },
         "esp_hal_touch_sens": {
             "alias": "idf::esp_hal_touch_sens",
@@ -3267,7 +3267,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "include_dirs": [ "esp32s3/include", "include" ]
+            "include_dirs": [ "esp32/include", "include" ]
         },
         "esp_hal_twai": {
             "alias": "idf::esp_hal_twai",
@@ -3280,7 +3280,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "include_dirs": [ "include", "esp32s3/include" ]
+            "include_dirs": [ "include", "esp32/include" ]
         },
         "esp_hal_uart": {
             "alias": "idf::esp_hal_uart",
@@ -3293,7 +3293,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "include_dirs": [ "include", "esp32s3/include" ]
+            "include_dirs": [ "include", "esp32/include" ]
         },
         "esp_hal_usb": {
             "alias": "idf::esp_hal_usb",
@@ -3306,7 +3306,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "include_dirs": [ "include", "esp32s3/include" ]
+            "include_dirs": [ "include" ]
         },
         "esp_hal_wdt": {
             "alias": "idf::esp_hal_wdt",
@@ -3319,7 +3319,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "include_dirs": [ "include", "esp32s3/include" ]
+            "include_dirs": [ "include", "esp32/include" ]
         },
         "esp_hid": {
             "alias": "idf::esp_hid",
@@ -3397,7 +3397,7 @@
             "priv_reqs": [ "efuse", "spi_flash", "bootloader_support", "esp_hal_wdt", "esp_hal_rtc_timer", "esp_hal_clock", "esp_hal_security", "esp_hal_systimer", "esp_hal_ana_conv", "esp_driver_gpio", "esp_timer", "esp_hal_touch_sens", "esp_pm", "esp_mm", "esp_hal_mspi", "esp_hal_uart" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "include_dirs": [ "include", "include/soc", "ldo/include", "debug_probe/include", "etm/include", "mspi/mspi_timing_tuning/include", "mspi/mspi_timing_tuning/tuning_scheme_impl/include", "mspi/mspi_intr/include", "power_supply/include", "modem/include", "include/soc/esp32s3" ]
+            "include_dirs": [ "include", "include/soc", "ldo/include", "debug_probe/include", "etm/include", "mspi/mspi_timing_tuning/include", "mspi/mspi_timing_tuning/tuning_scheme_impl/include", "mspi/mspi_intr/include", "power_supply/include", "modem/include" ]
         },
         "esp_lcd": {
             "alias": "idf::esp_lcd",
@@ -3410,7 +3410,7 @@
             "priv_reqs": [ "esp_mm", "esp_psram", "esp_pm", "esp_driver_i2s", "esp_driver_dma" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "include_dirs": [ "include", "interface", "rgb/include" ]
+            "include_dirs": [ "include", "interface" ]
         },
         "esp_libc": {
             "alias": "idf::esp_libc",
@@ -3501,7 +3501,7 @@
             "priv_reqs": [ "nvs_flash", "esp_driver_gpio", "esp_hal_ana_conv", "efuse", "esp_timer", "esp_wifi", "esptool_py" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "include_dirs": [ "include", "esp32s3/include" ]
+            "include_dirs": [ "include", "esp32/include" ]
         },
         "esp_pm": {
             "alias": "idf::esp_pm",
@@ -3524,10 +3524,10 @@
             "source": "idf_components",
             "lib": "__idf_esp_psram",
             "reqs": [],
-            "priv_reqs": [ "heap", "spi_flash", "esp_mm", "esp_hal_mspi", "esp_hal_gpio" ],
+            "priv_reqs": [ "heap", "spi_flash", "esp_mm", "esp_hal_mspi", "esp_hal_gpio", "bootloader_support", "esp_driver_gpio" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "include_dirs": [ "include", "device/include", "xip_impl/include" ]
+            "include_dirs": [ "include", "device/include" ]
         },
         "esp_ringbuf": {
             "alias": "idf::esp_ringbuf",
@@ -3553,7 +3553,7 @@
             "priv_reqs": [ "soc", "hal", "esp_hal_uart" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "include_dirs": [ "include", "esp32s3/include", "esp32s3/include/esp32s3", "esp32s3" ]
+            "include_dirs": [ "include", "esp32/include", "esp32/include/esp32", "esp32" ]
         },
         "esp_security": {
             "alias": "idf::esp_security",
@@ -3722,7 +3722,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "include_dirs": [ "platform_port/include", "esp32s3/include", "include" ]
+            "include_dirs": [ "platform_port/include", "esp32/include", "include" ]
         },
         "heap": {
             "alias": "idf::heap",
@@ -3969,7 +3969,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "include_dirs": [ "include", "esp32s3", "esp32s3/include", "esp32s3/register" ]
+            "include_dirs": [ "include", "esp32", "esp32/include", "esp32/register" ]
         },
         "spi_flash": {
             "alias": "idf::spi_flash",
@@ -4086,7 +4086,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "include_dirs": [ "esp32s3/include", "include", "deprecated_include" ]
+            "include_dirs": [ "esp32/include", "include", "deprecated_include" ]
         },
         "main": {
             "alias": "idf::main",
@@ -4095,7 +4095,7 @@
             "dir": "/home/jonathan/esp/payload/main",
             "source": "project_components",
             "lib": "__idf_main",
-            "reqs": [ "log", "fatfs", "esp_adc", "esp_driver_i2c", "esp_driver_mcpwm", "esp_driver_uart", "esp_driver_ledc" ],
+            "reqs": [ "driver", "log", "fatfs", "esp_adc", "esp_driver_gpio", "esp_driver_spi", "esp_driver_mcpwm", "esp_driver_uart", "esp_driver_ledc", "esp_timer" ],
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
@@ -4108,6 +4108,6 @@
         "03_py_extensions": "/home/jonathan/esp/payload/build/gdbinit/py_extensions",
         "04_connect": "/home/jonathan/esp/payload/build/gdbinit/connect"
     },
-    "debug_arguments_openocd": "-f board/esp32s3-builtin.cfg",
+    "debug_arguments_openocd": "-f board/esp32-wrover-kit-3.3v.cfg",
     "hints_file": "/home/jonathan/esp/payload/build/hints.yml"
 }
